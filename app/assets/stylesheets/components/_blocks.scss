@@ -97,10 +97,16 @@ ul.experiences li {
 
 ul.experiences li:after {
     /* bullets */
-    content: url('https://www.flaticon.com/svg/static/icons/svg/3515/3515278.svg');
+    content: '';
+    background-color: yellow;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid black;
     position: absolute;
-    left: -26px; /*adjust manually*/
-    top: 0px;
+    left: -22px;
+    top: 3px;
+    margin-top: 4px;
 }
 
 ul.experiences li:before {

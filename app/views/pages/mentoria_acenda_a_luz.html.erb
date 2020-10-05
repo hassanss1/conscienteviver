@@ -1,7 +1,7 @@
 <div class="container col-12">
     <div class="header"></div>
     <div class="ilumine container col-12 text-center" style="justify-content: center">
-      <h2 class="p-2">ILUMINE O QUE ESTÁ DENTRO DE VOCÊ <br>E CRIE UMA <U>VIDA QUE FAÇA SENTIDO</U></h2>
+      <h2 class="p-2">ILUMINE O QUE ESTÁ DENTRO DE VOCÊ <br>E CRIE UMA <u>VIDA QUE FAÇA SENTIDO</u></h2>
 
       <i class="fas fa-chevron-down fa-3x mb-4"></i>
       <div class="d-flex justify-content-center align-items-center">
@@ -43,7 +43,7 @@
     <div class="container col-12" id="fluxograma">
       <h3>VOCÊ IRÁ EXPERIMENTAR O MELHOR DO COLETIVO COM O MELHOR
       DO INDIVIDUAL SOMADO ÀS TAREFAS DE SEDIMENTAÇÃO DO CONHECIMENTO
-      E ÀS MELHORES E MAIS <u>VARIADAS FERRAMENTAS DO MERCADO<u>.</h3><br>
+      E ÀS MELHORES E MAIS <u>VARIADAS FERRAMENTAS DO MERCADO</u>.</h3><br>
       <i class="fas fa-chevron-down fa-3x mb-4"></i><br>
       <h4>meditação, visualização...</h4>
       <button type="button" class="btn btn-warning btn-quero btn-lg">UAU! SUPER COMPLETO! JÁ QUERO!</button>
@@ -137,40 +137,109 @@
       </div>
       <button type="button" class="btn btn-warning btn-quero btn-lg">QUERO! AGORA FICOU MELHOR AINDA!</button>
     </div>
-    <div class="container" id="funcionar">
-      <h2>Como vai funcionar?</h2><br>
-      <h2>ACOMPANHAMENTO E SUPORTE</h2>
-      <ul class="experiences">
+    <div class="container p-4" id="funcionar">
+      <div class="container text-center">
+        <h2 style="margin-bottom: 0">Como vai funcionar?</h2>
+        <h3 style="margin-top: 0">ACOMPANHAMENTO E SUPORTE</h3>
+      </div>
+      <div class="container col-6">
+        <ul class="experiences">
+          <li class="green">
+            <div class="where">Grupo de Suporte</div>
+            <p class="description">Através do WhatsApp para lembretes e troca de saberes entre os participantes</p>
+           </li>
+          <li class="green">
+            <div class="where">Acesso ao site do Consciente Viver</div>
+            <p class="description">com Login e Senha para acessar:<br>material extra, atividades, aulas gravadas e bônus</p>
+           </li>
+          <li class="green">
+            <div class="where">Revisão do Plano de Ação</div>
+            <p class="description">Envio/Upload do Plano de Ação para revisão através da Plataforma do Consciente Viver</p>
+           </li>
+          <li class="green">
+            <div class="where">Agendamento de Mentorias Individuais</div>
+            <p class="description">Será enviado link via WhatsApp do Calendly na semana anterior ao encontro individual </p>
+           </li>
+          <li class="green">
+            <div class="where">Encontros semanais via Zoom</div>
+            <p class="description">Sempre com mesmo ID, disponível na descrição do grupo do WhatsApp</p>
+           </li>
+          <li class="green">
+            <div class="where">Atividades entre encontros</div>
+            <p class="description">Envio das atividades da semana que devem ser feitas via email.</p>
+           </li>
+          <li class="green">
+            <div class="where">Disponibilidade</div>
+            <p class="description">Mentoria disponível pelo WhatsApp sempre que preciso</p>
+           </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container col-sm-12 col-8">
+      <h2>O que as pessoas que já acenderam sua luz disseram</h2>
+      <div class="card-group">
+        <div class="card-trip">
+          <%= image_tag "" %>
+          <div class="card-trip-infos">
+            <div>
+              <h2>Carol F.</h2>
+            </div>
+            <%= image_tag "" %>
+          </div>
+        </div>
+        <div class="card-trip">
+          <%= image_tag "" %>
+          <div class="card-trip-infos">
+            <div>
+              <h2>Jéssica P.</h2>
+            </div>
+            <%= image_tag "" %>
+          </div>
+        </div>
+        <div class="card-trip">
+          <%= image_tag "" %>
+          <div class="card-trip-infos">
+            <div>
+              <h2>Monica S.</h2>
+            </div>
+            <%= image_tag "" %>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fO9liVYM8A0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="container" id="garantia">
+      <h2>Fique tranquilo!</h2>
+      <h3>Se por algum motivo você não gostar do curso, você tem 7 dias para pedir todo seu dinheiro de volta!</h3>
+      <div class="row align-items-center">
+        <div class="col">
+          <h4>Não temos a menor dúvida que este é o melhor programa para se conhecer de verdade e fazer acontecer a vida que você deseja. Mas se por algum motivo você não se identificar e achar que não valeu a pena, é só enviar um email para sarahsalim_@hotmail.com que devolvemos 100% do seu dinheiro.</h4>
+        </div>
+        <div class="col">
+          <%= image_tag "garantia-7-dias.png", class: "img-fluid"%>
+        </div>
+      </div>
+      <div class="text-center">
+        <h5>Sem explicações, sem burocracia, 100% do seu dinheiro de volta.</h5>
+      </div>
+    </div>
+    <div class="container text-center">
+      <h2>PARA VIVER TUDO ISSO POR...</h2>
+      <div class="d-flex align-content-start justify-content-center">
+        <%= image_tag "xmark.png" %>
+          <h5 class="card-title">997</h5>
+          <p class="card-text">reais</p>
 
-        <!-- Experience -->
-        <li class="green">
-          <div class="where">Grupo de Suporte</div>
-          <p class="description">Através do WhatsApp para lembretes e troca de saberes entre os participantes</p>
-         </li>
-        <li class="green">
-          <div class="where">Acesso ao site do Consciente Viver</div>
-          <p class="description">com Login e Senha para acessar:<br>material extra, atividades, aulas gravadas e bônus</p>
-         </li>
-        <li class="green">
-          <div class="where">Revisão do Plano de Ação</div>
-          <p class="description">Envio/Upload do Plano de Ação para revisão através da Plataforma do Consciente Viver</p>
-         </li>
-        <li class="green">
-          <div class="where">Agendamento de Mentorias Individuais</div>
-          <p class="description">Será enviado link via WhatsApp do Calendly na semana anterior ao encontro individual </p>
-         </li>
-        <li class="green">
-          <div class="where">Encontros semanais via Zoom</div>
-          <p class="description">Sempre com mesmo ID, disponível na descrição do grupo do WhatsApp</p>
-         </li>
-        <li class="green">
-          <div class="where">Atividades entre encontros</div>
-          <p class="description">Envio das atividades da semana que devem ser feitas via email.</p>
-         </li>
-        <li class="green">
-          <div class="where">Disponibilidade</div>
-          <p class="description">Mentoria disponível pelo WhatsApp sempre que preciso</p>
-         </li>
-      </ul>
+        TURMA DE LANÇAMENTO
+        <h3 class="card-title"><b>12</b>x<br>64,89</h3>
+        <p class="card-text">ou 647 à vista</p>
+      </div>
+      <button type="button" class="btn btn-warning btn-quero btn-lg">QUERO ESSA MENTORIA LOGO!</button>
+      <div class="row align-items-center">
+        <%= image_tag "" %>
+        <button type="button" class="btn btn-warning btn-quero btn-lg"> Quer muito fazer mas não tem a grana?<br>Fale com a gente</button>
+      </div>
     </div>
   </div>
