@@ -21,7 +21,11 @@
   border-color: #D3AC4A;
   color: black;
 }
-
+.oldprice {
+  background-image: asset-url('xmark.png');
+  background-size: cover;
+  background-position: center;
+}
 /* Experiences */
 ul.experiences {
     padding-left: 15px;

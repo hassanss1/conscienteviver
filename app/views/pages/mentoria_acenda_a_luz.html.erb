@@ -228,13 +228,26 @@
     <div class="container text-center">
       <h2>PARA VIVER TUDO ISSO POR...</h2>
       <div class="d-flex align-content-start justify-content-center">
-        <%= image_tag "xmark.png" %>
-          <h5 class="card-title">997</h5>
-          <p class="card-text">reais</p>
-
-        TURMA DE LANÇAMENTO
-        <h3 class="card-title"><b>12</b>x<br>64,89</h3>
-        <p class="card-text">ou 647 à vista</p>
+        <div class="card align-items-center justify-content-center mr-4" style="width: 14rem; background-image: url('<%= image_path "xmark.png" %>'); background-position: center; background-size: cover;">
+              <div class="p-3">
+                <blockquote class="blockquote mb-0 card-body">
+                  <h3>997</h3>
+                  <p>reais</p>
+                </blockquote>
+              </div>
+        </div>
+        <div class="card align-items-center justify-content-center ml-4" style="width: 14rem;">
+          <div class="card-body">
+            <div style="background-color: green">TURMA DE LANÇAMENTO</div>
+            <div class="p-3">
+              <blockquote class="blockquote mb-0 card-body">
+                <p>12x</p>
+                <h3><b>64,89</b></h3>
+                <span>ou 647 à vista</span>
+              </blockquote>
+            </div>
+          </div>
+        </div>
       </div>
       <button type="button" class="btn btn-warning btn-quero btn-lg">QUERO ESSA MENTORIA LOGO!</button>
       <div class="row align-items-center">
