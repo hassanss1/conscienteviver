@@ -1,4 +1,4 @@
-<div class="container col-12">
+<div class="container col-12 p-0 m-0">
     <div class="header"></div>
     <div class="ilumine container col-12 text-center" style="justify-content: center">
       <h2 class="p-2">ILUMINE O QUE ESTÁ DENTRO DE VOCÊ <br>E CRIE UMA <u>VIDA QUE FAÇA SENTIDO</u></h2>
@@ -225,34 +225,51 @@
         <h5>Sem explicações, sem burocracia, 100% do seu dinheiro de volta.</h5>
       </div>
     </div>
-    <div class="container text-center">
+    <div class="container text-center" id="valor">
+      <section>
       <h2>PARA VIVER TUDO ISSO POR...</h2>
-      <div class="d-flex align-content-start justify-content-center">
-        <div class="card align-items-center justify-content-center mr-4" style="width: 14rem; background-image: url('<%= image_path "xmark.png" %>'); background-position: center; background-size: cover;">
-              <div class="p-3">
-                <blockquote class="blockquote mb-0 card-body">
-                  <h3>997</h3>
-                  <p>reais</p>
-                </blockquote>
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="price-table">
+                  <div class="price-head">
+                    <h4>TURMA NORMAL</h4>
+                  </div>
+                  <div class="price-content">
+                    <ul>
+                      <li>
+                        <p>por<h2>R$ 997</h2>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-        </div>
-        <div class="card align-items-center justify-content-center ml-4" style="width: 14rem;">
-          <div class="card-body">
-            <div style="background-color: green">TURMA DE LANÇAMENTO</div>
-            <div class="p-3">
-              <blockquote class="blockquote mb-0 card-body">
-                <p>12x</p>
-                <h3><b>64,89</b></h3>
-                <span>ou 647 à vista</span>
-              </blockquote>
+              <div class="col-sm-4">
+                <div class="price-table">
+                  <div class="price-head">
+                    <h4>TURMA DE LANÇAMENTO</h4>
+                  </div>
+                  <div class="price-content">
+                    <ul>
+                      <li>
+                        <p>por 12x <h2><b>R$ 64,89</b></h2>
+                        <p>ou <em>R$ 647</em> à vista</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="price-button">
+                    <a href="">EU QUERO!</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <button type="button" class="btn btn-warning btn-quero btn-lg">QUERO ESSA MENTORIA LOGO!</button>
+      </section>
+      <button type="button" class="btn btn-warning btn-quero btn-lg mt-4">QUERO ESSA MENTORIA LOGO!</button>
       <div class="row align-items-center">
         <%= image_tag "" %>
-        <button type="button" class="btn btn-warning btn-quero btn-lg"> Quer muito fazer mas não tem a grana?<br>Fale com a gente</button>
       </div>
     </div>
   </div>
