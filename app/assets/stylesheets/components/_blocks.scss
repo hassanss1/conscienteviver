@@ -1,8 +1,45 @@
-.header{
-  background-image: asset-url('acenda_luz.png');
-  background-size: cover;
-  background-position: center;
-  height: 140px;
+body {
+  margin: 0px auto;
+  max-width: 100vw;
+  line-height: 1.5;
+}
+
+.ilumine h2 {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  font-size: 2.8em;
+  font-weight: 500;
+  color: #d3ac4a;
+}
+
+.py-4 h3 {
+  padding: 1em;
+}
+#avatares {
+  background-color: #D3AC4A;
+}
+#avatares .row {
+}
+#avatares h2 {
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 1.7em;
+  font-weight: 400;
+  line-height: 2;
+  font-family: 'Homemade Apple', cursive;
+}
+.full-width{
+  background-image: asset-url('acenda_luz_limpo.png');
+  background-position: center; /* Center the image */
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
 }
 .ilumine {
   color: white;
@@ -20,6 +57,24 @@
   background-color: #D3AC4A;
   border-color: #D3AC4A;
   color: black;
+  font-weight: bold;
+}
+.btn-claro {
+  background-color: #E7D29C;
+  border-color: #D3AC4A;
+  color: black;
+  border-radius: 4px;
+}
+
+#caminho {
+  color: #D3AC4A;
+  font-size: 2em;
+  padding: 1.5em;
+}
+
+#caminho h2 {
+  font-size: 1.5em;
+  font-weight: bold;
 }
 .oldprice {
   background-image: asset-url('xmark.png');
