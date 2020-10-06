@@ -3,11 +3,16 @@ body {
   max-width: 100vw;
   line-height: 1.5;
 }
-
+.row{
+  margin: 0;
+  padding: 0;
+}
+.ilumine {
+}
 .ilumine h2 {
   padding-top: 1em;
   padding-bottom: 0.5em;
-  font-size: 2.8em;
+  font-size: 2rem;
   font-weight: 500;
   color: #d3ac4a;
 }
@@ -25,10 +30,71 @@ body {
   padding-bottom: 1.5em;
   padding-left: 2em;
   padding-right: 2em;
-  font-size: 1.7em;
+  font-size: 1.7rem;
   font-weight: 400;
   line-height: 2;
   font-family: 'Homemade Apple', cursive;
+}
+#fluxograma {
+  padding: 2rem;
+  background-color: #b1d08a;
+}
+#fluxograma h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: lighter;
+}
+#jornada h2 {
+  text-align: left;
+  padding-left: 3rem;
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+#jornada h3 {
+  text-align: right;
+  padding-right: 3rem;
+  margin-top: -0.3rem;
+}
+#desabrochar {
+  padding: 2rem;
+  background-color: #f3e9d2;
+}
+#desabrochar h2 {
+  max-width: 50rem;
+}
+#desabrochar p {
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.modulo {
+  font-size: 0.5rem;
+}
+.modulo h3 {
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+}
+.modulo h4 {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.modulo h5 {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.modulo h6 {
+  font-size: 0.6rem;
+  margin: 0;
+}
+.modulo p {
+  text-align: left;
 }
 .full-width{
   background-image: asset-url('acenda_luz_limpo.png');
@@ -61,7 +127,7 @@ body {
 }
 .btn-claro {
   background-color: #E7D29C;
-  border-color: #D3AC4A;
+  border-color: #E7D29C;
   color: black;
   border-radius: 4px;
 }

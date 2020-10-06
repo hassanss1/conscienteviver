@@ -1,8 +1,8 @@
 <div class="container-fluid m-0 p-0">
   <div class="row">
-    <div class="">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding: 0;">
       <%= image_tag 'acenda_luz_limpo.png', class:'full-width' %>
-      <div class="ilumine container text-center" style="justify-content: center">
+      <div class="ilumine text-center" style="justify-content: center">
         <h2>Ilumine o que está dentro de você <br> e crie uma <u>vida que faça sentido</u>!</h2>
 
         <i class="fas fa-chevron-down fa-3x" style="margin-bottom: 1em"></i>
@@ -26,7 +26,7 @@
           <button type="button" class="btn btn-warning btn-quero btn-lg">EU QUERO!</button>
         </div>
       </div>
-      <div class="container text-center p-4 align-items-center justify-content-center" id="avatares">
+      <div class="text-center p-4 align-items-center justify-content-center" id="avatares">
         <h2>Como nós demos um reset na nossa saúde, nas nossas relações e no nosso trabalho usando o poder da autoconsciência alinhado à ação consciente</h2>
         <div class="row align-items-center justify-content-center">
           <div id="avatar-sarah"></div>
@@ -53,56 +53,71 @@
       </div>
       <div class="container" id="ja_deu">
       </div>
-      <div class="container justify-content-center align-items-center text-center" id="caminho">
+      <div class="justify-content-center align-items-center text-center" id="caminho">
         <h2>Essa mentoria é totalmente passada para você que...</h2>
         <%= image_tag "" %>
         <button type="button" class="btn btn-warning btn-quero btn-lg">Me vejo nisso e quero criar uma vida que faça sentido</button>
       </div>
-      <div class="container justify-content-center align-items-center text-center" id="fluxograma">
+      <div class="justify-content-center align-items-center text-center" id="fluxograma">
+        <%= image_tag "" %>
         <h3>VOCÊ IRÁ EXPERIMENTAR O MELHOR DO COLETIVO COM O MELHOR
         DO INDIVIDUAL SOMADO ÀS TAREFAS DE SEDIMENTAÇÃO DO CONHECIMENTO
         E ÀS MELHORES E MAIS <u>VARIADAS FERRAMENTAS DO MERCADO</u>.</h3><br>
-        <i class="fas fa-chevron-down fa-3x mb-4"></i><br>
+        <i class="fas fa-chevron-down fa-3x"></i><br>
         <h4>meditação, visualização...</h4>
-        <button type="button" class="btn btn-warning btn-quero btn-lg">UAU! SUPER COMPLETO! JÁ QUERO!</button>
+        <button type="button" class="btn btn-warning btn-claro btn-lg">UAU! SUPER COMPLETO! JÁ QUERO!</button>
       </div>
-      <div class="row justify-content-center align-items-center text-center" id="desabrochar">
-        <div class="container jornada">
+      <div style="overflow: hidden; background: #b1d08a">
+        <svg
+          preserveAspectRatio="none"
+          viewBox="0 0 1200 120"
+          xmlns="http://www.w3.org/2000/svg"
+          style="fill: #f3e9d2; width: 110%; height: 86px; transform: rotate(180deg);"
+        >
+          <path d="M321.39 56.44c58-10.79 114.16-30.13 172-41.86 82.39-16.72 168.19-17.73 250.45-.39C823.78 31 906.67 72 985.66 92.83c70.05 18.48 146.53 26.09 214.34 3V0H0v27.35a600.21 600.21 0 00321.39 29.09z" />
+        </svg>
+      </div>
+      <div class="justify-content-center align-items-center text-center" id="desabrochar">
+        <div class="container jornada" id="jornada">
           <h2>A JORNADA...</h2>
           <h3>de autoconhecimento de um jeito que você nunca viu!</h3>
         </div>
-        <div class="container" style="align-items: center">
-          <div class="modulo">
-            <h4><u>MÓDULO 1:</u><br>O eu e a (in)consciência</h4>
-            <p><i>Construir a base interior, compreendendo a composição do nosso eu, iluminando a parte ‘inferior e superior’, para ter mais clareza de como trabalhar as questões de dentro</i></p>
+        <div class="row" style="align-items: center; padding: 2em;">
+          <div class="modulo col-sm-6 col-md-3">
+            <h4><u>MÓDULO 1:</u></h4><h5>O eu e a (in)consciência</h5>
+            <h6><i>Construir a base interior, compreendendo a composição do nosso eu, iluminando a parte ‘inferior e superior’, para ter mais clareza de como trabalhar as questões de dentro</i></h6>
             <p>Encontro 1: a personalidade<br>
               Encontro 2: a inconsciência e as sombras<br>
               Encontro 3: o Ser
             </p>
-            <h4><u>MÓDULO 3:</u><br>Eu e a sociedade</h4>
-            <p><i>Olhar para os problemas do mundo e sua relação com eles, da forma como a consciência individual se relaciona com a consciência coletiva para empoderar a ação consciente no Todo.</i></p>
+            <h4><u>MÓDULO 3:</u></h4><h5>Eu e a sociedade</h5>
+            <h6><i>Olhar para os problemas do mundo e sua relação com eles, da forma como a consciência individual se relaciona com a consciência coletiva para empoderar a ação consciente no Todo.</i></h6>
             <p>Encontro 7: divisões social, ecológica e espiritual<br>
             </p>
+          </div>
+          <div class="col-sm-6 col-md-6">
             <%= image_tag "" %>
-            <h4><u>MÓDULO 2:</u><br>O eu e a vida prática</h4>
-            <p><i>Analisar os 3 pilares principais da vida cotidiana sob o viés integral, buscando elevar a consciência das travas e buscas inconscientes para criar uma saúde, relacionamento e retorno financeiro que sejam satisfatórios</i></p>
+          </div>
+          <div class="modulo col-sm-6 col-md-3">
+            <h4><u>MÓDULO 2:</u></h4><h5>O eu e a vida prática</h5>
+            <h6><i>Analisar os 3 pilares principais da vida cotidiana sob o viés integral, buscando elevar a consciência das travas e buscas inconscientes para criar uma saúde, relacionamento e retorno financeiro que sejam satisfatórios</i></h6>
             <p>
               Encontro 4: saúde integral<br>
               Encontro 5: relacionamentos pessoais e amorosos<br>
               Encontro 6: prosperidade e abundância<br>
             </p>
-            <h4><u>MÓDULO 4:</u><br>Consciência coletiva e meu impacto no mundo</h4>
-            <p><i>Descobrir como seu propósito serve de alavanca para criar projetos que melhorem sua vida e melhorem o mundo, a partir de um novo Ser que trabalha para a nova era.</i></p>
+            <h4><u>MÓDULO 4:</u></h4><h5>Consciência coletiva e meu impacto no mundo</h5>
+            <h6><i>Descobrir como seu propósito serve de alavanca para criar projetos que melhorem sua vida e melhorem o mundo, a partir de um novo Ser que trabalha para a nova era.</i></h6>
             <p>
               Encontro 8: quem eu quero Ser na nova era para criar um novo mundo<br>
             </p>
+
           </div>
         </div>
-        <p>*adaptação da Teoria Integral de Ken Wilber</p>
+        <p>*adaptação da Teoria Integral de Ken Wilber</p><br>
         <h2>Ao término das 8 semanas, esta mentoria terá te ajudado a:</h2>
         <%= image_tag "" %>
-        <h3>O DESABROCHAR DA JORNADA</h3>
-        <h4>“É realmente um florescimento de dentro para fora e toda a jornada está construída nisso”<br>Carol F.</h4>
+        <p>“É realmente um florescimento de dentro para fora e toda a jornada está construída nisso”<br>Carol F.</p>
         <button type="button" class="btn btn-warning btn-quero btn-lg">QUERO DESABROCHAR TAMBÉM!</button>
       </div>
       <div class="container" id="presente">
