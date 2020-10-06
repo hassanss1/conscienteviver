@@ -93,6 +93,29 @@ body {
 .modulo p {
   text-align: left;
 }
+.presente {
+  padding: 2rem;
+  background: #fff;
+}
+.presente h2 {
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 2;
+  font-family: 'Homemade Apple', cursive;
+}
+.presente h5 {
+  font-size: 1rem;
+}
+.presente .row {
+  padding-bottom: 1.2rem;
+}
+.borderless {
+  border: none;
+}
 .full-width{
   background-image: asset-url('acenda_luz_limpo.png');
   background-position: center; /* Center the image */
