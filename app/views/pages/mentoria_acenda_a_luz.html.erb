@@ -8,14 +8,14 @@
           <h2>Ilumine o que está dentro de você <br> e crie uma <u>vida que faça sentido</u>!</h2>
 
           <i class="fas fa-chevron-down fa-3x" style="margin-bottom: 1em"></i>
-          <div class="row justify-content-center align-items-center">
+          <div class="row justify-content-center align-items-center p-2">
            <div class="card text-white bg-dark col-sm-12 col-md-4 col-lg-4 col-xl-4">
              <div class="card-body">
                <h5 class="card-title"><span class="iconify" data-icon="mdi-bullseye-arrow" data-inline="false"></span></h5>
                <p class="card-text" style="font-size: 1.3em">SABER O QUE QUER<br>(autoconsciência)</p>
              </div>
            </div>
-            <span class="font-weight-lighter col-sm-12 col-md-4 col-lg-4 col-xl-4" data-inline="false" style="font-size: 3em;">+</span>
+            <span class="font-weight-lighter col-sm-12 col-md-1 col-lg-1 col-xl-1" data-inline="false" style="font-size: 3em;">+</span>
             <div class="card text-white bg-dark col-sm-12 col-md-4 col-lg-4 col-xl-4">
               <div class="card-body">
                 <h5 class="card-title"><span class="iconify" data-icon="ri:footprint-fill" data-inline="false"></span></h5>
@@ -40,7 +40,7 @@
             preserveAspectRatio="none"
             viewBox="0 0 1200 120"
             xmlns="http://www.w3.org/2000/svg"
-            style="fill: #F4F4F4; width: 110%; height: 86px; transform: rotate(180deg);"
+            style="fill: #ffffff; width: 110%; height: 86px; transform: rotate(180deg);"
           >
             <path
               d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
@@ -53,15 +53,16 @@
             <path d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" />
           </svg>
         </div>
-        <div class="container" id="ja_deu">
+        <div class="" id="ja_deu">
+          <%= image_tag "ja_deu.png", style:"width:100%;height:auto;" %>
         </div>
         <div class="" id="caminho">
           <h2>Essa mentoria é totalmente passada para você que...</h2>
-          <%= image_tag "" %>
+          <%= image_tag "caminho.png", style:"width:100%;height:auto" %>
           <button type="button" class="btn btn-warning btn-quero btn-lg">Me vejo nisso e quero criar uma vida que faça sentido</button>
         </div>
         <div class="" id="fluxograma">
-          <%= image_tag "" %>
+          <%= image_tag "fluxograma.png", style:"width:100%;height:auto;" %>
           <h3>VOCÊ IRÁ EXPERIMENTAR O MELHOR DO COLETIVO COM O MELHOR
           DO INDIVIDUAL SOMADO ÀS TAREFAS DE SEDIMENTAÇÃO DO CONHECIMENTO
           E ÀS MELHORES E MAIS <u>VARIADAS FERRAMENTAS DO MERCADO</u>.</h3><br>
@@ -88,7 +89,7 @@
             <div class="col-sm-6 col-md-6 p-2" id="consciencias-sm">
               <%= image_tag "4_consciencias.png" %>
             </div>
-            <div class="modulo col-sm-3 col-md-3">
+            <div class="modulo col-sm-3 col-md-4">
               <h4><u>MÓDULO 1:</u></h4><h5>O eu e a (in)consciência</h5>
               <h6><i>Construir a base interior, compreendendo a composição do nosso eu, iluminando a parte ‘inferior e superior’, para ter mais clareza de como trabalhar as questões de dentro</i></h6>
               <p>Encontro 1: a personalidade<br>
@@ -111,10 +112,10 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-6 col-lg-6" id="consciencias-lg">
-              <%= image_tag "4_consciencias.png" %>
+            <div class="col-md-3 col-lg-4" id="consciencias-lg">
+              <%= image_tag "4_consciencias.png", style:"width:80%; height:auto;" %>
             </div>
-            <div class="modulo col-sm-3 col-md-3">
+            <div class="modulo col-sm-3 col-md-4">
               <div id="consciencias-lg">
                 <h4><u>MÓDULO 2:</u></h4><h5>O eu e a vida prática</h5>
                 <h6><i>Analisar os 3 pilares principais da vida cotidiana sob o viés integral, buscando elevar a consciência das travas e buscas inconscientes para criar uma saúde, relacionamento e retorno financeiro que sejam satisfatórios</i></h6>
@@ -140,9 +141,9 @@
           </div>
           <h6>*adaptação da Teoria Integral de Ken Wilber</h6><br>
           <h2 style="font-size: 1.6rem;">Ao término das 8 semanas, esta mentoria terá te ajudado a:</h2>
-          <%= image_tag "" %>
+          <%= image_tag "lotus.png", style:"width:80%;height:auto;", id:"lotus" %>
           <p style="padding: 1rem; padding-top: 0;">“É realmente um florescimento de dentro para fora e toda a jornada está construída nisso”<br>Carol F.</p>
-          <button type="button" class="btn btn-warning btn-quero btn-lg">QUERO DESABROCHAR TAMBÉM!</button>
+          <%= link_to 'QUERO DESABROCHAR TAMBÉM!', details_path , class:'btn btn-warning btn-quero btn-lg' %>
         </div>
         <div class="presente">
             <i class="fas fa-gift fa-6x" style="color: #d3ac4a;"></i>
@@ -152,51 +153,50 @@
           </h2>
           <div class="gifts">
             <div class="card-trip">
-              <%= image_tag "yoga.png" %>
+              <%= image_tag "yoga.png", style:"width: 100%;height: auto;" %>
               <div class="card-trip-infos">
                 <div>
-                  <h3>5 aulas gravadas</h3>
+                  <h5>5 aulas gravadas de Yoga</h5>
                 </div>
               </div>
             </div>
             <div class="card-trip">
-              <%= image_tag "foot-massage.png" %>
+              <%= image_tag "foot-massage.png", style:"width: 100%;height: auto;" %>
               <div class="card-trip-infos">
                 <div>
-                  <h3>1 aula de automassagem</h3>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-trip">
-              <%= image_tag "yoga.png" %>
-              <div class="card-trip-infos">
-                <div>
-                  <h3>1 palestra introdutória sobre Meditação Transcendental</h3>
+                  <h5 style="width: 100%;height: auto;">1 aula de automassagem</h5>
                 </div>
               </div>
             </div>
 
             <div class="card-trip">
-              <%= image_tag "ayurveda.png" %>
+              <%= image_tag "mt.png", style:"width: 100%;height: auto;" %>
               <div class="card-trip-infos">
                 <div>
-                  <h3>1 aula de Introdução ao Maharishi Ayurveda</h3>
+                  <h5>1 palestra introdutória sobre Meditação Transcendental</h5>
                 </div>
               </div>
             </div>
 
             <div class="card-trip">
-              <%= image_tag "study.png" %>
+              <%= image_tag "ayurveda.png", style:"width: 100%;height: auto;" %>
               <div class="card-trip-infos">
                 <div>
-                  <h3>1 caderno de oração e textos sagrados</h3>
+                  <h5>1 aula de Introdução ao Maharishi Ayurveda</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-trip">
+              <%= image_tag "study.png", style:"width: 100%;height: auto;" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h5>1 caderno de oração e textos sagrados</h5>
                 </div>
               </div>
             </div>
           </div>
-
-          <button type="button" class="btn btn-warning btn-quero btn-lg">QUERO! AGORA FICOU MELHOR AINDA!</button>
+          <%= link_to 'QUERO! AGORA FICOU MELHOR AINDA!', details_path , class:'btn btn-warning btn-quero btn-lg' %>
         </div>
         <div class="p-4 align-items-center justify-content-center" id="funcionar">
           <div class="container text-center">
@@ -258,7 +258,7 @@
           <h2>O que as pessoas que já acenderam sua luz disseram</h2>
           <div class="card-group justify-content-center">
             <div class="card-trip col-sm-12 col-md-3 col-lg-3 col-xl-3">
-              <%= image_tag "carol_depo.png" %>
+              <%= image_tag "carol_depo.png", style:"width: 100%;height: auto;" %>
               <div class="card-trip-infos p-2">
                 <%= image_tag "carol_foto.png", id: "avatar-carol" %>
                 <div>
@@ -267,7 +267,7 @@
               </div>
             </div>
             <div class="card-trip col-sm-12 col-md-3 col-lg-3 col-xl-3">
-              <%= image_tag "jessica_depo.png" %>
+              <%= image_tag "jessica_depo.png", style:"width: 100%;height: auto;" %>
               <div class="card-trip-infos p-2">
                 <%= image_tag "jessica_foto.png", id: "avatar-jessica" %>
                 <div>
@@ -276,7 +276,7 @@
               </div>
             </div>
             <div class="card-trip col-sm-12 col-md-3 col-lg-3 col-xl-3">
-              <%= image_tag "monica_depo.png" %>
+              <%= image_tag "monica_depo.png", style:"width: 100%;height: auto;" %>
               <div class="card-trip-infos p-2">
                 <%= image_tag "monica_foto.png", id: "avatar-monica"%>
                 <div>
@@ -285,7 +285,7 @@
               </div>
             </div>
             <div class="card-trip col-sm-12 col-md-3 col-lg-3 col-xl-3">
-              <%= image_tag "bia_depo.png" %>
+              <%= image_tag "bia_depo.png", style:"width: 100%;height: auto;" %>
               <div class="card-trip-infos p-2">
                 <div id="avatar-bia"></div>
                 <div>
@@ -349,7 +349,7 @@
                         </ul>
                       </div>
                       <div class="price-button">
-                        <a href="">EU QUERO!</a>
+                        <%= link_to 'EU QUERO!', details_path , class:'price-button' %>
                       </div>
                     </div>
                   </div>
@@ -357,16 +357,18 @@
               </div>
             </div>
           </section>
-          <div class="row align-items-center justify-content-center" id="whats">
-            <%= image_tag "" %>
-            <button type="button" href="" class="align-items-center justify-content-center btn btn-warning btn-claro btn-lg pt-2">
+            <%= image_tag "5vagas.png", style:"width:30%;height:auto; pt-6", id:"vagas" %>
+          <div class="align-items-center justify-content-center" id="whats">
+            <button type="button" href="https://api.whatsapp.com/send?phone=5512996277707&text=Oi%20Sarah!%20Tenho%20d%C3%BAvida%20sobre%20a%20mentoria.%20" class="align-items-center justify-content-center btn btn-warning btn-claro btn-lg pt-2">
               <div class="align-items-center justify-content-center">
                 <i class="fab fa-whatsapp fa-4x" style="color: green; float: left; padding-right: 2px;"></i>
                 <h4>Quer muito fazer mas não tem a grana? Fala com a gente...</h4>
               </div>
             </button>
-            </a>
           </div>
+            <button type="button" href="https://api.whatsapp.com/send?phone=5512996277707&text=Oi%20Sarah!%20Tenho%20d%C3%BAvida%20sobre%20a%20mentoria.%20" class="align-items-center justify-content-center btn btn-warning btn-claro btn-lg pt-2">
+                <h4>Ficou com alguma dúvida? Vem que a gente responde!</h4>
+            </button>
         </div>
       </div>
     </div>

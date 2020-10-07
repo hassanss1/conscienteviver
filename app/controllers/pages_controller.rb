@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def mentoria_acenda_a_luz
   end
+
+  def details
+  end
 end

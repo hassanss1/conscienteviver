@@ -191,13 +191,21 @@ body {
   color: black;
   border-radius: 4px;
 }
-
+#ja_deu {
+  background: white;
+}
+#ja_deu img {
+  padding-top: 1rem;
+}
 #caminho {
+  background: white;
   color: #D3AC4A;
   font-size: 2em;
   padding: 1.5em;
 }
-
+#caminho img {
+  padding-bottom: 1rem;
+}
 #caminho h2 {
   font-size: 1.5em;
   font-weight: bold;
@@ -325,10 +333,14 @@ ul.experiences li:last-child:before {
     font-size:  1.3rem;
   }
   #fluxograma h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  #vagas {
+    width: 100%;
   }
   #caminho h2 {
-      font-size: 1.4em;
+      font-size: 1.3em;
       font-weight: bold;
   }
   #avatares h2 {
@@ -369,6 +381,9 @@ ul.experiences li:last-child:before {
     padding-left: 0px;
     padding-right: 0px;
   }
+  #lotus {
+    width: 100%;
+  }
 }
 @media (min-width: 320px) and (max-width: 575px) {
   #jornada h2 {
@@ -379,6 +394,9 @@ ul.experiences li:last-child:before {
     padding-right: 0;
     margin-top: 1rem;
   }
+  #vagas {
+    width: 100%;
+  }
   #consciencias-lg {
     display: none;
   }
@@ -386,10 +404,11 @@ ul.experiences li:last-child:before {
     font-size: 1.3rem;
   }
   #fluxograma h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    padding-top: 1rem;
   }
   #caminho h2 {
-      font-size: 1.4em;
+      font-size: 1.3em;
       font-weight: bold;
   }
   #avatares h2 {
@@ -414,6 +433,9 @@ ul.experiences li:last-child:before {
   }
   .garantia h4 {
     padding-top: 1rem;
+  }
+  #lotus {
+    width: 100%;
   }
 }
 
