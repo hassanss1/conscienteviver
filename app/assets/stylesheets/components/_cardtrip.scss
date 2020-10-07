@@ -145,6 +145,7 @@
   border-left: 15px solid #D3AC4A;
   border-right:15px solid #D3AC4A;
 }
+
 .price-button {
   padding: 0 0 30px;
 }
@@ -227,6 +228,10 @@
       -o-object-fit: cover;
       object-fit: cover;
   }
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -241,4 +246,82 @@
   .gifts .card-trip{
     flex: 0 0 15%;
   }
+}
+.group-table {
+  text-align: center;
+  overflow: hidden;
+  margin: 0px;
+  margin-top: 1rem;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.2), 0 20px 50px rgba(0,0,0,0.3);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.group-table .group-head {
+  padding: 50px;
+  background: linear-gradient(45deg, #F3E9D2, #D3AC4A);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.group-table .group-head h4 {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 700;
+}
+.group-table .group-head h2 {
+  margin: 0;
+  padding: 20px 0 0 ;
+  color: #fff;
+  font-size: 36px;
+}
+.group-content {
+  position: relative;
+  margin: 0px;
+}
+.group-content h3 {
+  margin: 0;
+}
+.group-content p {
+  margin: 0;
+}
+.group-content ul {
+  position: relative;
+  margin: 0px;
+  padding: 20px 0;
+  padding-bottom: 0px;
+}
+.group-content ul li {
+  list-style: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 10px 0;
+  color: #777;
+  cursor: pointer;
+  border-left: 15px solid transparent;
+  border-right:15px solid transparent;
+  transition: 0.2s;
+}
+.group-content ul li:hover {
+  border-left: 15px solid #D3AC4A;
+  border-right:15px solid #D3AC4A;
+}
+.group-button {
+  padding: 1rem;
+}
+
+button.mercadopago-button {
+  color: #fff;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: linear-gradient(45deg, #F3E9D2, #D3AC4A);
+}
+button.mercadopago-button:hover {
+  background: #d3ac4a;
 }

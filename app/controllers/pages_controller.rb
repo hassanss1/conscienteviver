@@ -10,4 +10,8 @@ class PagesController < ApplicationController
 
   def details
   end
+
+  def transferencia
+  end
+
 end

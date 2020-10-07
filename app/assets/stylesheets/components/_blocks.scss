@@ -12,11 +12,17 @@ body {
 .ilumine h2 {
   padding-top: 1em;
   padding-bottom: 0.5em;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 500;
   color: #d3ac4a;
 }
-
+#details h2 {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #d3ac4a;
+}
 .py-4 h3 {
   padding: 1em;
 }
@@ -121,6 +127,10 @@ body {
 }
 .garantia {
   text: center;
+}
+.garantia img {
+  width: 80%;
+  height: auto;
 }
 .garantia h5 {
   padding: 1.5rem;
@@ -327,6 +337,11 @@ ul.experiences li:last-child:before {
   padding-right: 3rem;
   margin-top: -0.3rem;
 }
+#vagas {
+    width:15%;
+    height:20%;
+    padding-top: 2rem;
+}
 // Smallest device
 @media (min-width: 100px) and (max-width: 320px) {
   .presente h2 {
@@ -338,6 +353,7 @@ ul.experiences li:last-child:before {
   }
   #vagas {
     width: 100%;
+    height: auto;
   }
   #caminho h2 {
       font-size: 1.3em;
@@ -396,7 +412,9 @@ ul.experiences li:last-child:before {
   }
   #vagas {
     width: 100%;
+    height: auto;
   }
+
   #consciencias-lg {
     display: none;
   }
@@ -439,6 +457,7 @@ ul.experiences li:last-child:before {
   }
 }
 
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width:767px) {
   #jornada h2 {
@@ -451,6 +470,10 @@ ul.experiences li:last-child:before {
   }
   #consciencias-lg {
     display: none;
+  }
+  #vagas img {
+    width:25%;
+    height:20%;
   }
 }
 
@@ -467,6 +490,10 @@ ul.experiences li:last-child:before {
   #consciencias-sm {
     display: none;
   }
+  #vagas img {
+    width: 25%;
+    height: 20%;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -474,11 +501,19 @@ ul.experiences li:last-child:before {
   #consciencias-sm {
     display: none;
   }
+  #vagas img {
+    width:25%;
+    height:20%;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   #consciencias-sm {
     display: none;
+  }
+  #vagas img {
+    width:25%;
+    height:20%;
   }
 }
