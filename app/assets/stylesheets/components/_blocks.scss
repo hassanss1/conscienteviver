@@ -42,7 +42,7 @@ body {
   font-family: 'Homemade Apple', cursive;
 }
 #fluxograma {
-  padding: 2rem;
+  padding-top: 1rem;
   background-color: #b1d08a;
 }
 #fluxograma h3 {
@@ -50,14 +50,16 @@ body {
   font-size: 1.5rem;
   text-align: center;
   font-weight: lighter;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
-#desabrochar {
+.desabrochar {
   padding: 2rem;
   background-color: #f3e9d2;
 }
-#desabrochar p {
+.desabrochar p {
   text-align: right;
-  font-size: 0.8rem;
+  font-size: 1.8rem;
   font-weight: lighter;
 }
 .modulo {
@@ -211,7 +213,7 @@ body {
   background: white;
   color: #D3AC4A;
   font-size: 2em;
-  padding: 1.5em;
+  padding: 0;
 }
 #caminho img {
   padding-bottom: 1rem;
@@ -351,6 +353,9 @@ ul.experiences li:last-child:before {
     font-size: 1rem;
     padding-top: 1rem;
   }
+  .desabrochar p {
+    font-size: 0.8rem;
+  }
   #vagas {
     width: 100%;
     height: auto;
@@ -409,6 +414,9 @@ ul.experiences li:last-child:before {
   #jornada h3 {
     padding-right: 0;
     margin-top: 1rem;
+  }
+  .desabrochar p {
+    font-size: 0.8rem;
   }
   #vagas {
     width: 100%;

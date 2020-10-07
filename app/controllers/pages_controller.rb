@@ -14,4 +14,6 @@ class PagesController < ApplicationController
   def transferencia
   end
 
+  def nos
+  end
 end
