@@ -8,15 +8,15 @@
           <h2>Ilumine o que está dentro de você <br> e crie uma <u>vida que faça sentido</u>!</h2>
 
           <i class="fas fa-chevron-down fa-3x" style="margin-bottom: 1em"></i>
-          <div class="d-flex justify-content-center align-items-center">
-           <div class="card text-white bg-dark border-0 mr-5" style="width: 18rem;">
+          <div class="row justify-content-center align-items-center">
+           <div class="card text-white bg-dark col-sm-12 col-md-4 col-lg-4 col-xl-4">
              <div class="card-body">
                <h5 class="card-title"><span class="iconify" data-icon="mdi-bullseye-arrow" data-inline="false"></span></h5>
                <p class="card-text" style="font-size: 1.3em">SABER O QUE QUER<br>(autoconsciência)</p>
              </div>
            </div>
-            <span class="font-weight-lighter" data-inline="false" style="font-size: 3em;">+</span>
-            <div class="card text-white bg-dark border-0 ml-5" style="width: 18rem;">
+            <span class="font-weight-lighter col-sm-12 col-md-4 col-lg-4 col-xl-4" data-inline="false" style="font-size: 3em;">+</span>
+            <div class="card text-white bg-dark col-sm-12 col-md-4 col-lg-4 col-xl-4">
               <div class="card-body">
                 <h5 class="card-title"><span class="iconify" data-icon="ri:footprint-fill" data-inline="false"></span></h5>
                 <p class="card-text" style="font-size: 1.3em">AGIR PARA CHEGAR LÁ<br>(ação consciente)</p>
@@ -84,42 +84,64 @@
             <h2>A JORNADA...</h2>
             <h3>de autoconhecimento de um jeito que você nunca viu!</h3>
           </div>
-          <div class="row" style="align-items: center; padding: 2em;">
-            <div class="modulo col-sm-6 col-md-3">
+          <div class="row" style="align-items: center; padding-top: 2em; padding-bottom: 0;">
+            <div class="col-sm-6 col-md-6 p-2" id="consciencias-sm">
+              <%= image_tag "4_consciencias.png" %>
+            </div>
+            <div class="modulo col-sm-3 col-md-3">
               <h4><u>MÓDULO 1:</u></h4><h5>O eu e a (in)consciência</h5>
               <h6><i>Construir a base interior, compreendendo a composição do nosso eu, iluminando a parte ‘inferior e superior’, para ter mais clareza de como trabalhar as questões de dentro</i></h6>
               <p>Encontro 1: a personalidade<br>
                 Encontro 2: a inconsciência e as sombras<br>
                 Encontro 3: o Ser
               </p>
-              <h4><u>MÓDULO 3:</u></h4><h5>Eu e a sociedade</h5>
-              <h6><i>Olhar para os problemas do mundo e sua relação com eles, da forma como a consciência individual se relaciona com a consciência coletiva para empoderar a ação consciente no Todo.</i></h6>
-              <p>Encontro 7: divisões social, ecológica e espiritual<br>
-              </p>
+              <div id="consciencias-lg">
+                <h4><u>MÓDULO 3:</u></h4><h5>Eu e a sociedade</h5>
+                <h6><i>Olhar para os problemas do mundo e sua relação com eles, da forma como a consciência individual se relaciona com a consciência coletiva para empoderar a ação consciente no Todo.</i></h6>
+                <p>Encontro 7: divisões social, ecológica e espiritual<br>
+                </p>
+              </div>
+              <div id="consciencias-sm">
+                <h4><u>MÓDULO 2:</u></h4><h5>O eu e a vida prática</h5>
+                <h6><i>Analisar os 3 pilares principais da vida cotidiana sob o viés integral, buscando elevar a consciência das travas e buscas inconscientes para criar uma saúde, relacionamento e retorno financeiro que sejam satisfatórios</i></h6>
+                <p>
+                  Encontro 4: saúde integral<br>
+                  Encontro 5: relacionamentos pessoais e amorosos<br>
+                  Encontro 6: prosperidade e abundância<br>
+                </p>
+              </div>
             </div>
-            <div class="col-sm-6 col-md-6">
+            <div class="col-md-6 col-lg-6" id="consciencias-lg">
               <%= image_tag "4_consciencias.png" %>
             </div>
-            <div class="modulo col-sm-6 col-md-3">
-              <h4><u>MÓDULO 2:</u></h4><h5>O eu e a vida prática</h5>
-              <h6><i>Analisar os 3 pilares principais da vida cotidiana sob o viés integral, buscando elevar a consciência das travas e buscas inconscientes para criar uma saúde, relacionamento e retorno financeiro que sejam satisfatórios</i></h6>
-              <p>
-                Encontro 4: saúde integral<br>
-                Encontro 5: relacionamentos pessoais e amorosos<br>
-                Encontro 6: prosperidade e abundância<br>
-              </p>
+            <div class="modulo col-sm-3 col-md-3">
+              <div id="consciencias-lg">
+                <h4><u>MÓDULO 2:</u></h4><h5>O eu e a vida prática</h5>
+                <h6><i>Analisar os 3 pilares principais da vida cotidiana sob o viés integral, buscando elevar a consciência das travas e buscas inconscientes para criar uma saúde, relacionamento e retorno financeiro que sejam satisfatórios</i></h6>
+                <p>
+                  Encontro 4: saúde integral<br>
+                  Encontro 5: relacionamentos pessoais e amorosos<br>
+                  Encontro 6: prosperidade e abundância<br>
+                </p>
+              </div>
+              <div id="consciencias-sm">
+                <h4><u>MÓDULO 3:</u></h4><h5>Eu e a sociedade</h5>
+                <h6><i>Olhar para os problemas do mundo e sua relação com eles, da forma como a consciência individual se relaciona com a consciência coletiva para empoderar a ação consciente no Todo.</i></h6>
+                <p>Encontro 7: divisões social, ecológica e espiritual<br>
+                </p>
+              </div>
               <h4><u>MÓDULO 4:</u></h4><h5>Consciência coletiva e meu impacto no mundo</h5>
               <h6><i>Descobrir como seu propósito serve de alavanca para criar projetos que melhorem sua vida e melhorem o mundo, a partir de um novo Ser que trabalha para a nova era.</i></h6>
               <p>
                 Encontro 8: quem eu quero Ser na nova era para criar um novo mundo<br>
               </p>
-
             </div>
+
           </div>
           <h6>*adaptação da Teoria Integral de Ken Wilber</h6><br>
           <h2 style="font-size: 1.6rem;">Ao término das 8 semanas, esta mentoria terá te ajudado a:</h2>
           <%= image_tag "" %>
-          <p style="padding: 1rem">“É realmente um florescimento de dentro para fora e toda a jornada está construída nisso”<br>Carol F.</p>
+          <p style="padding: 1rem; padding-top: 0;">“É realmente um florescimento de dentro para fora e toda a jornada está construída nisso”<br>Carol F.</p>
           <button type="button" class="btn btn-warning btn-quero btn-lg">QUERO DESABROCHAR TAMBÉM!</button>
         </div>
         <div class="presente">
@@ -128,48 +150,52 @@
           <h2>
             ... e ainda tem presente!
           </h2>
-          <div class="row align-items-start justify-content-center">
-            <div class="col-sm-6 col-md-2">
-              <div class="card border-0 p-2">
-                <%= image_tag "yoga.png" %>
-                <div class="card-body p-0 pt-2">
-                  <h5 class="card-title">5 aulas gravadas</h5>
+          <div class="gifts">
+            <div class="card-trip">
+              <%= image_tag "yoga.png" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h3>5 aulas gravadas</h3>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-2">
-              <div class="card border-0 p-2">
-                <%= image_tag "foot-massage.png" %>
-                <div class="card-body p-0 pt-2">
-                  <h5 class="card-title">1 aula de automassagem</h5>
+            <div class="card-trip">
+              <%= image_tag "foot-massage.png" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h3>1 aula de automassagem</h3>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-2">
-              <div class="card border-0 p-2">
-                <%= image_tag "foot-massage.png" %>
-                <div class="card-body p-0 pt-2">
-                  <h5 class="card-title">1 palestra introdutória sobre<br>Meditação Transcendental</h5>
+
+            <div class="card-trip">
+              <%= image_tag "yoga.png" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h3>1 palestra introdutória sobre Meditação Transcendental</h3>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-2">
-              <div class="card border-0 p-2">
-                <%= image_tag "ayurveda.png" %>
-                <div class="card-body p-0 pt-2">
-                  <h5 class="card-title">1 aula de introdução ao Maharishi Ayurveda</h5>
+
+            <div class="card-trip">
+              <%= image_tag "ayurveda.png" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h3>1 aula de Introdução ao Maharishi Ayurveda</h3>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-2">
-              <div class="card border-0 p-2">
-                <%= image_tag "study.png" %>
-                <div class="card-body p-0 pt-2">
-                  <h5 class="card-title">1 caderno de oração e textos sagrados</h5>
+
+            <div class="card-trip">
+              <%= image_tag "study.png" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h3>1 caderno de oração e textos sagrados</h3>
                 </div>
               </div>
             </div>
           </div>
+
           <button type="button" class="btn btn-warning btn-quero btn-lg">QUERO! AGORA FICOU MELHOR AINDA!</button>
         </div>
         <div class="p-4 align-items-center justify-content-center" id="funcionar">
@@ -232,35 +258,45 @@
           <h2>O que as pessoas que já acenderam sua luz disseram</h2>
           <div class="card-group justify-content-center">
             <div class="card-trip col-sm-12 col-md-3 col-lg-3 col-xl-3">
-              <%= image_tag "" %>
+              <%= image_tag "carol_depo.png" %>
               <div class="card-trip-infos p-2">
-                <%= image_tag "perfil_sarah.jpeg", id: "avatar-carol" %>
+                <%= image_tag "carol_foto.png", id: "avatar-carol" %>
                 <div>
                   <h3>Carol F.</h3>
                 </div>
               </div>
             </div>
             <div class="card-trip col-sm-12 col-md-3 col-lg-3 col-xl-3">
-              <%= image_tag "" %>
+              <%= image_tag "jessica_depo.png" %>
               <div class="card-trip-infos p-2">
-                <%= image_tag "perfil_sarah.jpeg", id: "avatar-jessica" %>
+                <%= image_tag "jessica_foto.png", id: "avatar-jessica" %>
                 <div>
                   <h3>Jéssica P.</h3>
                 </div>
               </div>
             </div>
             <div class="card-trip col-sm-12 col-md-3 col-lg-3 col-xl-3">
-              <%= image_tag "" %>
+              <%= image_tag "monica_depo.png" %>
               <div class="card-trip-infos p-2">
-                <%= image_tag "perfil_sarah.jpeg", id: "avatar-monica"%>
+                <%= image_tag "monica_foto.png", id: "avatar-monica"%>
                 <div>
                   <h3>Monica S.</h3>
                 </div>
               </div>
             </div>
+            <div class="card-trip col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <%= image_tag "bia_depo.png" %>
+              <div class="card-trip-infos p-2">
+                <div id="avatar-bia"></div>
+                <div>
+                  <h3>Ana Beatriz R.</h3>
+                </div>
+              </div>
+            </div>
+
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 full-width" style="background: #F3E9D2; padding:1rem;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/fO9liVYM8A0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/fO9liVYM8A0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
         <div class="garantia text-center">

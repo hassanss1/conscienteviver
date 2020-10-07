@@ -45,18 +45,6 @@ body {
   text-align: center;
   font-weight: lighter;
 }
-#jornada h2 {
-  text-align: left;
-  padding-left: 3rem;
-  margin: 0;
-  font-size: 3rem;
-  font-weight: bold;
-}
-#jornada h3 {
-  text-align: right;
-  padding-right: 3rem;
-  margin-top: -0.3rem;
-}
 #desabrochar {
   padding: 2rem;
   background-color: #f3e9d2;
@@ -315,3 +303,126 @@ ul.experiences li:last-child:before {
    height: 6px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
 }
 
+
+#jornada h2 {
+  text-align: left;
+  padding-left: 3rem;
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+#jornada h3 {
+  text-align: right;
+  padding-right: 3rem;
+  margin-top: -0.3rem;
+}
+// Smallest device
+@media (min-width: 100px) and (max-width: 320px) {
+  .presente h2 {
+    font-size:  1.3rem;
+  }
+  #fluxograma h3 {
+    font-size: 1.3rem;
+  }
+  #caminho h2 {
+      font-size: 1.4em;
+      font-weight: bold;
+  }
+  #avatares h2 {
+      padding-left: 1em;
+      padding-right: 1em;
+      font-size: 1.3rem;
+      line-height: 1.8;
+  }
+  #funcionar h3 {
+    font-size: 1.5rem;
+  }
+  .card-trip h3 {
+    font-size: 1rem;
+  }
+  .card-trip {
+    margin-bottom: 0.4rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  #jornada h2 {
+    font-size: 2rem;
+    padding-left: 0;
+  }
+  #jornada h3 {
+    padding-right: 0;
+    margin-top: 1rem;
+  }
+  #consciencias-lg {
+    display: none;
+  }
+  .presente h2 {
+    font-size: 1.3rem;
+  }
+  #fluxograma h3 {
+    font-size: 1.3rem;
+  }
+  #caminho h2 {
+      font-size: 1.4em;
+      font-weight: bold;
+  }
+  #avatares h2 {
+      padding-left: 1em;
+      padding-right: 1em;
+      font-size: 1.3rem;
+      line-height: 1.8;
+  }
+  #funcionar h3 {
+    font-size: 1.5rem;
+  }
+  .card-trip h3 {
+    font-size: 1rem;
+  }
+  .card-trip {
+    margin-bottom: 0.4rem;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width:767px) {
+  #jornada h2 {
+    font-size: 2rem;
+    padding-left: 0;
+  }
+  #jornada h3 {
+    padding-right: 0;
+    margin-top: 1rem;
+  }
+  #consciencias-lg {
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+  #jornada h2 {
+    font-size: 2rem;
+    padding-left: 0;
+  }
+  #jornada h3 {
+    padding-right: 0;
+    margin-top: 1rem;
+  }
+  #consciencias-sm {
+    display: none;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
+  #consciencias-sm {
+    display: none;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #consciencias-sm {
+    display: none;
+  }
+}

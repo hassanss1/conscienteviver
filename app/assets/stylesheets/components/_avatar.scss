@@ -34,34 +34,49 @@
   border: white 1px solid;
 }
 #avatar-monica {
+  float: left;
   width: 40px;
   height: 40px;
   background-size: cover;
   border-radius: 50%;
   background-position: right -75px bottom 0px;
-  background-image: asset-url('perfil_dois.jpeg');
+  background-image: asset-url('monica_foto.png');
   transform: scale(1.2);
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   border: white 1px solid;
 }
 #avatar-carol {
+  float: left;
   width: 40px;
   height: 40px;
   background-size: cover;
   border-radius: 50%;
   background-position: right -75px bottom 0px;
-  background-image: asset-url('perfil_dois.jpeg');
+  background-image: asset-url('carol_foto.png');
   transform: scale(1.2);
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   border: white 1px solid;
 }
 #avatar-jessica {
+  float: left;
   width: 40px;
   height: 40px;
   background-size: cover;
   border-radius: 50%;
   background-position: right -75px bottom 0px;
-  background-image: asset-url('perfil_dois.jpeg');
+  background-image: asset-url('jessica_foto.png');
+  transform: scale(1.2);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+#avatar-bia {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border-radius: 50%;
+  background-position: right -75px bottom 0px;
+  background-image: asset-url('bia_foto.png');
   transform: scale(1.2);
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   border: white 1px solid;

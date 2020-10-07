@@ -1,10 +1,11 @@
 .card-trip {
   overflow: hidden;
   background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding-right: 0;
   padding-left: 0;
   margin: 2px;
+  text-align: center;
+  margin-bottom: 0.4rem;
 }
 .card-trip > img {
   height: 180px;
@@ -35,7 +36,7 @@
 .card-trip .card-trip-infos {
   padding: 4px;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   position: relative;
 }
@@ -159,4 +160,82 @@
 .col-sm-4:nth-child(2) .price-table:hover {
   box-shadow: 0 20px 50px rgba(243,233,210,0.5);
   transition: 0.5s;
+}
+.gifts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 319px) {
+  .gifts .card-trip {
+    flex: 0 0 40%;
+  }
+  .gifts {
+    justify-content: space-around;
+  }
+  .card-trip > img {
+      height: 100px;
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .gifts .card-trip {
+    flex: 0 0 40%;
+  }
+  .gifts {
+    justify-content: space-around;
+  }
+  .card-trip > img {
+      height: 120px;
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .gifts .card-trip{
+    flex: 0 0 40%;
+  }
+  .gifts {
+    justify-content: space-around;
+  }
+  .card-trip > img {
+      height: 120px;
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .gifts .card-trip{
+    flex: 0 0 40%;
+  }
+  .card-trip > img {
+      height: 100px;
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .gifts .card-trip{
+    flex: 0 0 20%;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .gifts .card-trip{
+    flex: 0 0 20%;
+  }
 }
