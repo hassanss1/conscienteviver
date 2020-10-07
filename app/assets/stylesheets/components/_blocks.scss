@@ -113,8 +113,57 @@ body {
 .presente .row {
   padding-bottom: 1.2rem;
 }
-.borderless {
-  border: none;
+#funcionar {
+  color: white;
+  background: #104F55;
+}
+#funcionar h3 {
+  color: #d3ac4a;
+  font-weight: bolder;
+}
+.experiences {
+  position: relative;
+}
+.testemunhos {
+  padding: 1.5rem;
+}
+.testemunhos h2 {
+  color: #104F55;
+  font-size: 2rem;
+}
+.garantia {
+  text: center;
+}
+.garantia h5 {
+  padding: 1.5rem;
+  color: #3E5622;
+  font-size: 1.4rem;
+}
+.garantia h4 {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.garantia h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: 'Homemade Apple', cursive;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.garantia h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.garantia .row {
+}
+#valor {
+  padding: 1.5rem;
+  background-color: #D3AC4A;
+}
+#valor h2 {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 .full-width{
   background-image: asset-url('acenda_luz_limpo.png');
@@ -178,18 +227,10 @@ ul.experiences li {
     list-style: none;
     background: url('../img/misc/list-bullet-darkgray.png') no-repeat;
 }
-ul.experiences li.green {
-    background: url('../img/misc/list-bullet-green.png') no-repeat;
-}
-ul.experiences li.blue {
-    background: url('../img/misc/list-bullet-blue.png') no-repeat;
-}
-ul.experiences li.pink {
-    background: url('../img/misc/list-bullet-pink.png') no-repeat;
-}
+
 .where {
     font-size: 1.2857em; /* 18/16 -> 18px */
-    font-weight: 300;
+    font-weight: bolder;
     display: inline;
     margin-right: 0.5em;
 }
@@ -243,14 +284,14 @@ ul.experiences li {
 ul.experiences li:after {
     /* bullets */
     content: '';
-    background-color: yellow;
-    width: 14px;
-    height: 14px;
+    background-color: #d3ac4a;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 0.5px solid white;
     position: absolute;
-    left: -22px;
-    top: 3px;
+    left: -23px;
+    top: 2.5px;
     margin-top: 4px;
 }
 
@@ -259,7 +300,7 @@ ul.experiences li:before {
     content:"";
     position: absolute;
     left: -16px; /* adjust manually */
-    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
     height: 100%;
     width: 1px;
 }

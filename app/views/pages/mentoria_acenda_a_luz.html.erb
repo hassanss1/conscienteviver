@@ -98,7 +98,7 @@
               </p>
             </div>
             <div class="col-sm-6 col-md-6">
-              <%= image_tag "" %>
+              <%= image_tag "4_consciencias.png" %>
             </div>
             <div class="modulo col-sm-6 col-md-3">
               <h4><u>MÓDULO 2:</u></h4><h5>O eu e a vida prática</h5>
@@ -172,12 +172,12 @@
           </div>
           <button type="button" class="btn btn-warning btn-quero btn-lg">QUERO! AGORA FICOU MELHOR AINDA!</button>
         </div>
-        <div class="container p-4" id="funcionar">
+        <div class="p-4 align-items-center justify-content-center" id="funcionar">
           <div class="container text-center">
             <h2 style="margin-bottom: 0">Como vai funcionar?</h2>
             <h3 style="margin-top: 0">ACOMPANHAMENTO E SUPORTE</h3>
           </div>
-          <div class="container">
+          <div class="container text-left col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <ul class="experiences">
               <li class="green">
                 <div class="where">Grupo de Suporte</div>
@@ -210,57 +210,76 @@
             </ul>
           </div>
         </div>
-        <div class="container">
+        <div style="overflow: hidden; background-color: #104F55;">
+          <svg
+            preserveAspectRatio="none"
+            viewBox="0 0 1200 120"
+            xmlns="http://www.w3.org/2000/svg"
+            style="fill: #F4F4F4; width: 110%; height: 88px; transform: rotate(180deg);"
+          >
+            <path
+              d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
+              opacity=".3"
+            />
+            <path
+              d="M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z"
+              opacity=".7"
+            />
+            <path d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" />
+          </svg>
+        </div>
+        <div class="testemunhos">
           <h2>O que as pessoas que já acenderam sua luz disseram</h2>
-          <div class="card-group">
-            <div class="card-trip">
+          <div class="card-group justify-content-center">
+            <div class="card-trip col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <%= image_tag "" %>
-              <div class="card-trip-infos">
+              <div class="card-trip-infos p-2">
+                <%= image_tag "perfil_sarah.jpeg", id: "avatar-carol" %>
                 <div>
-                  <h2>Carol F.</h2>
+                  <h3>Carol F.</h3>
                 </div>
-                <%= image_tag "" %>
               </div>
             </div>
-            <div class="card-trip">
+            <div class="card-trip col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <%= image_tag "" %>
-              <div class="card-trip-infos">
+              <div class="card-trip-infos p-2">
+                <%= image_tag "perfil_sarah.jpeg", id: "avatar-jessica" %>
                 <div>
-                  <h2>Jéssica P.</h2>
+                  <h3>Jéssica P.</h3>
                 </div>
-                <%= image_tag "" %>
               </div>
             </div>
-            <div class="card-trip">
+            <div class="card-trip col-sm-12 col-md-3 col-lg-3 col-xl-3">
               <%= image_tag "" %>
-              <div class="card-trip-infos">
+              <div class="card-trip-infos p-2">
+                <%= image_tag "perfil_sarah.jpeg", id: "avatar-monica"%>
                 <div>
-                  <h2>Monica S.</h2>
+                  <h3>Monica S.</h3>
                 </div>
-                <%= image_tag "" %>
               </div>
             </div>
           </div>
-          <div class="">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 full-width" style="background: #F3E9D2; padding:1rem;">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/fO9liVYM8A0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="container" id="garantia">
+        <div class="garantia text-center">
           <h2>Fique tranquilo!</h2>
           <h3>Se por algum motivo você não gostar do curso, você tem 7 dias para pedir todo seu dinheiro de volta!</h3>
-          <div class="row align-items-center">
-            <div class="">
-              <h4>Não temos a menor dúvida que este é o melhor programa para se conhecer de verdade e fazer acontecer a vida que você deseja. Mas se por algum motivo você não se identificar e achar que não valeu a pena, é só enviar um email para sarahsalim_@hotmail.com que devolvemos 100% do seu dinheiro.</h4>
-            </div>
-            <div class="">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-sm-4 col-md-4 col-lg-4 col-lg-4">
               <%= image_tag "garantia-7-dias.png", class: "img-fluid"%>
+            </div>
+            <div class="col-sm-8 col-md-6 col-lg-6 col-lg-6">
+              <h4>Não temos a menor dúvida que este é o melhor programa para se conhecer de verdade e fazer acontecer a vida que você deseja.</h4>
+              <h4 style="padding-top: 2rem">Mas se por algum motivo você não se identificar e achar que não valeu a pena, é só enviar um email para sarahsalim_@hotmail.com que devolvemos 100% do seu dinheiro.</h4>
             </div>
           </div>
           <div class="text-center">
             <h5>Sem explicações, sem burocracia, 100% do seu dinheiro de volta.</h5>
           </div>
         </div>
-        <div class="container text-center" id="valor">
+        <div class="text-center" id="valor">
           <section>
           <h2>PARA VIVER TUDO ISSO POR...</h2>
             <div class="container-fluid">

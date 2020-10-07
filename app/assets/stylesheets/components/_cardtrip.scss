@@ -2,13 +2,20 @@
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding-right: 0;
+  padding-left: 0;
+  margin: 2px;
 }
 .card-trip > img {
-  height: 200px;
+  height: 180px;
   width: 100%;
   object-fit: cover;
 }
-
+.card-trip h3 {
+  margin: 0;
+  margin-left: 0.4rem;
+  font-size: 1.4rem;
+}
 .card-trip h2 {
   font-size: 16px;
   font-weight: bold;
@@ -20,13 +27,16 @@
   opacity: .7;
   margin: 0;
 }
-
+.card-group {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
 .card-trip .card-trip-infos {
-  padding: 16px;
+  padding: 4px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: left;
+  align-items: center;
   position: relative;
 }
 
@@ -68,10 +78,6 @@
   position: relative;
 }
 
-#valor {
-  padding: 100px 0;
-  background-color: #D3AC4A;
-}
 .price-table {
   text-align: center;
   overflow: hidden;
