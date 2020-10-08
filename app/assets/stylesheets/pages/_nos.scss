@@ -1,0 +1,51 @@
+body {
+  margin: 0 auto;
+  max-width: 90em;
+  line-height: 1.5;
+  padding: 1em 1em;
+
+}
+h2 {
+  margin-top: 1em;
+  padding: 1.5em;
+  font-size: 3rem;
+}
+.projeto h3 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.projeto {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.projeto .row p {
+}
+.nos h2 {
+  text-align: center;
+}
+.texto {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+hr {
+    border: none;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 5px;
+    position: relative;
+    top: -12px;
+}
