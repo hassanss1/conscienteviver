@@ -16,6 +16,13 @@ h2 {
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
+.nos h3 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .projeto {
   justify-content: center;
   text-align: center;
@@ -27,10 +34,10 @@ h2 {
   text-align: center;
 }
 .texto {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 2rem;
   max-width: 60rem;
   margin: 0 auto;
+  font-size: 1.3rem;
 }
 hr {
     border: none;
@@ -52,4 +59,8 @@ hr:after {
     position: relative;
     top: -13px;
     transform: scale(1.5);
+}
+.logo {
+  width: 30%;
+  height: auto;
 }

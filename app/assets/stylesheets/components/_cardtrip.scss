@@ -232,6 +232,13 @@
     width: 560px;
     height: 315px;
   }
+  #mercadopago-checkout {
+    z-index:1;
+    display:block;
+    position: absolute !important;
+    left: 5% !important;
+    top: 10% !important;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -239,12 +246,26 @@
   .gifts .card-trip{
     flex: 0 0 15%;
   }
+  #mercadopago-checkout {
+    z-index:1;
+    display:block;
+    position: absolute !important;
+    left: 5% !important;
+    top: 10% !important;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .gifts .card-trip{
     flex: 0 0 15%;
+  }
+  #mercadopago-checkout {
+    z-index:1;
+    display:block;
+    position: absolute !important;
+    left: 5% !important;
+    top: 10% !important;
   }
 }
 .group-table {
