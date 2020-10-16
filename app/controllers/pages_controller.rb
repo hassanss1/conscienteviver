@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
+  skip_before_action :authenticate_user!, only: [:home, :linkbio, :mentoria_acenda_a_luz, :details, :transferencia, :nos]
+
   def home
   end
 

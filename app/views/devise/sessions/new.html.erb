@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2 class="mb-0 pt-2" style="color:#D3AC4A">Seja muito bem vindo</h2>
+      <p style="color: white">Entre para acender sua luz</p>
+    </div>
+    <div class="col-12">
+      <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name),html: { class: "login", style: "margin-bottom: -2rem"}) do |f| %>
+        <div class="form-inputs">
+          <%= f.input :email,
+                      required: false,
+                      autofocus: true,
+                      input_html: { autocomplete: "email" } %>
+          <%= f.input :password,
+                      required: false,
+                      input_html: { autocomplete: "current-password" } %>
+          <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
+        </div>
+
+        <div class="form-actions">
+          <%= f.button :submit, "Iniciar Sessão", class: "button" %>
+        </div>
+      <%= render "devise/shared/links" %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
