@@ -16,4 +16,8 @@ class PagesController < ApplicationController
 
   def nos
   end
+
+  def mentoria_acenda_a_luz_home
+  end
+
 end
