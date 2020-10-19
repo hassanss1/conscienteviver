@@ -1,0 +1,130 @@
+.header {
+  text-align: center;
+}
+.header h3 {
+  font-size: 2.5rem;
+  padding-top: 1.5rem;
+  font-weight: 400;
+  line-height: 2;
+  font-family: 'Homemade Apple', cursive;
+  color: #D3AC4A;
+}
+.header h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+.arquivos {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  max-width: 60%;
+  padding: 1.5rem;
+}
+.arquivos a {
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  padding: 1rem;
+  transition: 0.2s;
+}
+.arquivos a:hover {
+  background-color: #D3AC4A;
+  color: white;
+  cursor: pointer;
+}
+#topicos li {
+  padding-left: 1.4rem;
+  list-style-type: none;
+  position: relative;    /* It's needed for setting position to absolute in the next rule. */
+}
+
+#topicos li::before {
+    content: '-';
+    position: absolute;
+    left: -0.8em;          /* Adjust this value so that it appears where you want. */
+    font-size: 0.8em;      /* Adjust this value so that it appears what size you want. */
+    top: 0.3rem;
+}
+.detalhes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
+.detalhes p {
+  font-size: 1.5rem;
+}
+.detalhes h4 {
+  font-size: 2rem;
+}
+.detalhes ul {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+// Smallest device
+@media (min-width: 100px) and (max-width: 319px) {
+  .detalhes {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+  }
+  .detalhes p {
+    font-size: 1.2rem;
+  }
+  .arquivos {
+    flex-direction: column;
+    max-width: 100%;
+    font-size: 1.3rem;
+    padding: 0;
+  }
+  .arquivos a {margin-top: 1rem;}
+  .header h3 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .detalhes {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+  }
+  .detalhes p {
+    font-size: 1.2rem;
+  }
+  .arquivos {
+    flex-direction: column;
+    max-width: 100%;
+    font-size: 1.3rem;
+    padding: 0;
+  }
+  .arquivos a {margin-top: 1rem;}
+  .header h3 {
+    font-size: 2rem;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

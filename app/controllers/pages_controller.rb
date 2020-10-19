@@ -22,4 +22,30 @@ class PagesController < ApplicationController
   def mentoria_acenda_a_luz_home
   end
 
+  # Aulas
+  def aula1
+  end
+
+  # def aula2
+  # end
+
+  # def aula3
+  # end
+
+  # def aula4
+  # end
+
+  # def aula5
+  # end
+
+  # def aula6
+  # end
+
+  # def aula7
+  # end
+
+  # def aula8
+  # end
+
+
 end
