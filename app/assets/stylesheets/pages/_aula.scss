@@ -1,0 +1,13 @@
+.header {
+  text-align: center;
+}
+.arquivos {
+  display: flex;
+  justify-content: space-around;
+}
+.detalhes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
