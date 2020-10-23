@@ -26,8 +26,8 @@ class PagesController < ApplicationController
   def aula1
   end
 
-  # def aula2
-  # end
+  def aula2
+  end
 
   # def aula3
   # end
