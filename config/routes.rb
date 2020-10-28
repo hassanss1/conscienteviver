@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  # root to: 'pages#mentoria_acenda_a_luz'
+  get '/mentoria_acenda_a_luz', to: 'pages#mentoria_acenda_a_luz'
   root to: 'pages#linkbio'
   # get '/linkbio', to: 'pages#linkbio'
   get '/details', to: 'pages#details'
