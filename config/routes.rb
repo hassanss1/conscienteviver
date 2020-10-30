@@ -20,7 +20,7 @@ Rails.application.routes.draw do
   # get '/mentoria_acenda_a_luz/aulas/8', to: 'pages#aula8', as: 'aula8'
 
   # Routes for bônus
-  # get '/mentoria_acenda_a_luz/bonus/1', to: 'pages#bonus1'
+  get '/mentoria_acenda_a_luz/bonus/1', to: 'pages#bonus1', as: 'bonus1'
   # get '/mentoria_acenda_a_luz/bonus/2', to: 'pages#bonus2'
   # get '/mentoria_acenda_a_luz/bonus/3', to: 'pages#bonus3'
   # get '/mentoria_acenda_a_luz/bonus/4', to: 'pages#bonus4'

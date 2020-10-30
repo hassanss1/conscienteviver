@@ -47,5 +47,22 @@ class PagesController < ApplicationController
   # def aula8
   # end
 
+  def bonus1
+  end
+
+  # def bonus2
+  # end
+
+  # def bonus3
+  # end
+
+  # def bonus4
+  # end
+
+  # def bonus5
+  # end
+
+  # def bonus6
+  # end
 
 end
