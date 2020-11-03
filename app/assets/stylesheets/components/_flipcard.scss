@@ -39,7 +39,7 @@
   border-radius: 10px;
   backface-visibility: hidden;
   overflow: hidden;
-  background: #ffc728;
+  background: #d3ac4a;
   color: #000;
 }
 
@@ -63,6 +63,7 @@
 /*This block (starts here) is merely styling for the flip card, and is NOT an essential part of the flip code */
 .front-card h3, .back-card h3{
   padding: 30px;
+  font-family: "helvetica-rounded-bold";
   font-weight: bold;
   font-size: 3.5rem;
   text-align: center;
@@ -72,13 +73,15 @@
   top: 50%;
   left: 50%;
   margin-right: -50%;                  /* 3 */
-  transform: translate(-50%, -50%)   /* 4 */
+  transform: translate(-50%, -50%);   /* 4 */
+  color: white;
 }
 
 .front-card p, .back-card p{
   padding: 30px;
+  font-family: "helvetica-light";
   font-weight: normal;
-  font-size: 12px;
+  font-size: 1.3rem;
   text-align: center;
   vertical-align: middle;
   margin: auto;
