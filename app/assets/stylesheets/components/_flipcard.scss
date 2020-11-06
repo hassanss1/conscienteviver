@@ -2,7 +2,7 @@
 .maincontainer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 10rem;
+  column-gap: 8rem;
   grid-row-gap: 0.5rem;
   justify-items: center;
   align-items: center;
@@ -151,7 +151,7 @@
   }
   .maincontainer{
     display: grid;
-    column-gap: 10rem;
+    column-gap: 8rem;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 80%;
     height: 70vh;
