@@ -6,3 +6,51 @@
   font-size: 1.5rem;
   font-family: "helvetica-light";
 }
+#tm-header {
+  font-size: 4rem;
+}
+#ciencia {
+  display:block;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+// Smallest device
+@media (min-width: 100px) and (max-width: 319px) {
+  #tm-header {
+    font-size: 2rem;
+  }
+  #ciencia {
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  #tm-header {
+    font-size: 2rem;
+  }
+  #ciencia {
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  #tm-header {
+    font-size: 4rem;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #tm-header {
+    font-size: 4rem;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
