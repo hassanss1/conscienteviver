@@ -2,7 +2,7 @@
 .maincontainer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 8rem;
+  column-gap: 7rem;
   grid-row-gap: 0.5rem;
   justify-items: center;
   align-items: center;
@@ -144,14 +144,14 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .front-card p, .back-card p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .front-card h3, .back-card h3{
     font-size: 3.5rem;
   }
   .maincontainer{
     display: grid;
-    column-gap: 8rem;
+    column-gap: 7rem;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 80%;
     height: 70vh;
