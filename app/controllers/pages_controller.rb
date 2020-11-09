@@ -50,8 +50,8 @@ class PagesController < ApplicationController
   def bonus1
   end
 
-  # def bonus2
-  # end
+  def bonus2
+  end
 
   # def bonus3
   # end
