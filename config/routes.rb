@@ -22,7 +22,7 @@ Rails.application.routes.draw do
   # Routes for bônus
   get '/mentoria_acenda_a_luz/bonus/1', to: 'pages#bonus1', as: 'bonus1'
   get '/mentoria_acenda_a_luz/bonus/2', to: 'pages#bonus2', as: 'bonus2'
-  # get '/mentoria_acenda_a_luz/bonus/3', to: 'pages#bonus3', as: 'bonus3'
+  get '/mentoria_acenda_a_luz/bonus/3', to: 'pages#bonus3', as: 'bonus3'
   # get '/mentoria_acenda_a_luz/bonus/4', to: 'pages#bonus4', as: 'bonus4'
   # get '/mentoria_acenda_a_luz/bonus/5', to: 'pages#bonus5', as: 'bonus6'
   # get '/mentoria_acenda_a_luz/bonus/6', to: 'pages#bonus6', as: 'bonus6'
