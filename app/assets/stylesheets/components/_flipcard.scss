@@ -22,14 +22,12 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  transform-style: preserve-3d;
-  transition: all 0.8s ease;
+  // transform-style: preserve-3d;
 }
 
 /* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
-.card:hover{
-  transform: rotateY(180deg);
-}
+.card:hover .front-card{ transform: rotateY(180deg); }
+.card:hover .back-card { transform: rotateY(360deg); }
 
 /* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
  .front-card{
@@ -40,7 +38,8 @@
   height: 100%;
   border-radius: 10px;
   backface-visibility: hidden;
-  overflow: hidden;
+  // overflow: hidden;
+  transition: transform 0.8s ease;
   background: #d3ac4a;
   color: #000;
 }
@@ -54,7 +53,8 @@
   height: 100%;
   border-radius: 10px;
   backface-visibility: hidden;
-  overflow: hidden;
+  // overflow: hidden;
+  transition: transform 0.8s ease;
   background: #fafafa;
   color: #333;
   text-align: center;
