@@ -16,7 +16,7 @@ class PagesController < ApplicationController
   def mentoria_acenda_a_luz
   end
 
-  def semearvoce2021
+  def semear2021
   end
 
   def details
