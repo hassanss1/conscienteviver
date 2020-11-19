@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   get '/details', to: 'pages#details'
   get '/transferencia', to:'pages#transferencia'
   get '/nos', to:'pages#nos'
+
+  # Routes for semear2021
+  get '/semearvoce2021', to: 'pages#semearvoce2021'
   # Routes for mentoria_acenda_luz
   devise_for :users, path: '', path_names: { sign_in: 'login', sign_out: 'logout'}
   get '/home', to: 'pages#mentoria_acenda_a_luz_home'

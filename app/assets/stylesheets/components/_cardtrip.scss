@@ -1,6 +1,6 @@
 .card-trip {
   overflow: hidden;
-  background: white;
+  background: none;
   padding-right: 0;
   padding-left: 0;
   margin: 2px;
@@ -11,6 +11,7 @@
   height: 180px;
   width: 100%;
   object-fit: cover;
+  padding: 0.5rem;
 }
 .card-trip h3 {
   margin: 0;
@@ -36,7 +37,7 @@
 }
 
 .card-trip .card-trip-infos {
-  padding: 4px;
+  padding: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,16 +239,28 @@
 // Smallest device
 @media (min-width: 100px) and (max-width: 319px) {
   .gifts .card-trip {
-    flex: 0 0 40%;
+    flex: 0 0 45%;
+    padding: 1rem;
+  }
+  .gifts .card-trip:nth-last-child(1) {
+    flex: 1 0 50%;
+  }
+  .gifts .card-trip:nth-last-child(1) > img {
+    height: 50px;
+    width: 100%;
+    padding: 1rem;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
   .gifts {
     justify-content: space-around;
   }
   .card-trip > img {
-      height: 100px;
-      width: 100%;
-      -o-object-fit: cover;
-      object-fit: cover;
+    height: 100px;
+    width: 100%;
+    padding: 1rem;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
   .yoga {
     display: grid;
@@ -266,7 +279,17 @@
 }
 @media (min-width: 320px) and (max-width: 575px) {
   .gifts .card-trip {
-    flex: 0 0 40%;
+    flex: 0 0 45%;
+  }
+  .gifts .card-trip:nth-last-child(1) {
+    flex: 1 0 50%;
+  }
+  .gifts .card-trip:nth-last-child(1) > img {
+    height: auto;
+    width: 50%;
+    padding: 1rem;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
   .gifts {
     justify-content: space-around;

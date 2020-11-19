@@ -1,0 +1,73 @@
+.semear {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.semear h3 {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+.semear h4 {
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.semear h5 {
+  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.semear h6 {
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: rgba(0,0,0,0.7);
+  letter-spacing: 1px;
+}
+#convite {
+  font-size: 1.2rem;
+}
+#dia {
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin: 1rem;
+}
+#semearvc {
+  background-image: asset-url('logosemearcel.png');
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+.retiroonline {
+  border-radius: 8px;
+}
+.retiroonline h4 {
+  text-align: left;
+}
+.retiroonline p {
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.encontros h4 {
+  text-align: left;
+}
+.encontros p {
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.encontros {
+  top: -5px;
+  border: solid 2px #d3ac4a;
+}
+.segundobloco {
+  background: #d3ac4a;
+  padding: 1rem;
+}
+.pontos {
+  padding: 1rem;
+}

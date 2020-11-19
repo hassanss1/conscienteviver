@@ -1,5 +1,11 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:home, :linkbio, :mentoria_acenda_a_luz, :details, :transferencia, :nos]
+  skip_before_action :authenticate_user!, only: [:home,
+                                                 :linkbio,
+                                                 :mentoria_acenda_a_luz,
+                                                 :details,
+                                                 :transferencia,
+                                                 :nos,
+                                                 :semearvoce2021]
 
   def home
   end
@@ -8,6 +14,9 @@ class PagesController < ApplicationController
   end
 
   def mentoria_acenda_a_luz
+  end
+
+  def semearvoce2021
   end
 
   def details
