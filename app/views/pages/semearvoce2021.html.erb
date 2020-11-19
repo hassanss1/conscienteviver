@@ -1,29 +1,34 @@
 <body class="semear" style="background-color:#f3e9d2;">
   <div class="container-fluid m-0 p-0">
     <div class="row">
-      <div class="p-0 col-12 text-center align-items-center justify-content-center">
+      <div class="p-0 col-sm-12 text-center align-items-center justify-content-center">
 
-        <div class="full-width" id="semearvc"></div>
+        <div class="container pt-4">
+          <div class="row">
+            <div class="col-md-7 col-lg-7" id="semearvc">
+              <%= image_tag "logosemearcel.png" %>
+            </div>
 
-        <div class="text-center align-items-center justify-content-center" id="details">
+            <div class="col-md-5 col-lg-5" id="details">
 
-          <h3 style="line-height: 1; color:#d3ac4a">DESCUBRA COMO SEMEAR AUTOCUIDADO PARA COLHER UM VOCÊ MENOS ANSIOSO E MAIS EQUILIBRADO EM 2021!</h3>
+              <div class="pontos">
+              <h3 style="line-height: 1; color:#d3ac4a">DESCUBRA COMO SEMEAR AUTOCUIDADO PARA COLHER UM VOCÊ MENOS ANSIOSO E MAIS EQUILIBRADO EM 2021!</h3>
+                <br>
+                <p>&#x1F914; Reflita como foi seu autocuidado em 2021 e principais desafios</p>
+                <p>&#x1F50E; Identifique seus hábitos que te sabotam</p>
+                <p>&#x270D; Desenhe seu próprio ritual de autocuidado para 2021</p>
+              </div>
 
-          <div class="pontos">
-            <p></p>
-            <p>Reflita como foi seu autocuidado em 2021 e principais desafios</p>
-            <p>Identifique seus hábitos que te sabotam</p>
-            <p>Desenhe seu próprio ritual de autocuidado para 2021</p>
+            </div>
           </div>
-
-          <h4 style="line-height: 1.3; letter-spacing: 1px;padding: 1rem;">O evento Semear Você 2021 é um <b>retiro <em>ON-LINE</em></b> <b>GRATUITO</b> para trabalhar seu autocuidado.</h4>
-
-          <p id="dia"><b style="color:#d3ac4a">Dia 06 de Dezembro</b> <br><b>das 8 às 19h</b></p>
-          <a href="https://pag.ae/7WudL4Nw7" class="btn btn-warning btn-quero btn-lg mb-2" style="border-radius: 8px;letter-spacing: 0.5px">
-            Se inscreva gratuitamente!
-          </a>
-
         </div>
+        <h4 style="line-height: 1.3; letter-spacing: 1px;padding: 1rem;">O evento Semear Você 2021 é um <b>retiro <em>ON-LINE</em></b> <b>GRATUITO</b> para trabalhar seu autocuidado.</h4>
+
+        <p id="dia"><b style="color:#d3ac4a">Dia 06 de Dezembro</b> <br><b>das 8 às 19h</b></p>
+        <a href="https://chat.whatsapp.com/IqVU3bgE41aDjgODlg5Sh3" class="btn btn-warning btn-quero btn-lg" style="border-radius: 8px;letter-spacing: 0.5px; margin-bottom: -10px;" id="inscreva">
+          Se inscreva gratuitamente!
+        </a>
+
         <div style="overflow: hidden;">
           <svg
             preserveAspectRatio="none"
@@ -42,92 +47,116 @@
             <path d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" />
           </svg>
         </div>
-        <div class="segundobloco">
-          <div class="retiroonline col-12 p-2 m-2" style="float:left; background: #d3ac4a; border-radius: 8px;">
-            <h4><b>Retiro online? &#x1F914;&#x1F914; Como funciona?</b></h4>
-            <p>Um retiro é um período para <u>se retirar das atividades cotidianas</u>, a fim de realizar um mergulho interno e obter respostas</p>
-          </div>
-
-          <div>
-            <h5>
-              Vamos ficar um dia inteiro juntinhos e conectados pelo Zoom para:
-            </h5>
-            <div class="gifts">
-              <div class="card-trip">
-                <%= image_tag "yoga.png", style:"width: 60%;height: auto;" %>
-                <div class="card-trip-infos">
-                  <div>
-                    <h6 style="margin-bottom: 0;">Praticar Yoga, Meditação e Respirações</h6>
-                  </div>
-                </div>
+        <div class="segundobloco" style="margin-bottom: -15px;">
+          <div class="container">
+            <div class="row">
+              <div class="retiroonline m-4">
+                <h4 style=""><b>Retiro online? &#x1F914;&#x1F914; Como funciona?</b></h4>
+                <p style="float:right;">Um retiro é um período para <u>se retirar das atividades cotidianas</u>, a fim de realizar um mergulho interno e obter respostas</p>
               </div>
-              <div class="card-trip">
-                <%= image_tag "routine.png", style:"width: 60%;height: auto;" %>
-                <div class="card-trip-infos">
-                  <div>
-                    <h6 style="margin-bottom: 0;">Receber dicas e aprender mais sobre alimentação e sono</h6>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-trip">
-                <%= image_tag "knowledge.png", style:"width: 60%;height: auto;" %>
-                <div class="card-trip-infos">
-                  <div>
-                    <h6 style="margin-bottom: 0;">Aulas teóricas sobre corpo, mente, estresse, ansiedade, vícios e gatilhos</h6>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-trip">
-                <%= image_tag "spa.png", style:"width: 60%;height: auto;" %>
-                <div class="card-trip-infos">
-                  <div>
-                    <h6 style="margin-bottom: 0;">Criar seu próprio ritual de autocuidado, com os elementos que fazem sentido pra você!</h6>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-trip">
-                <%= image_tag "reflect.png", style:"width: 60%;height: auto;" %>
-                <div class="card-trip-infos">
-                  <div>
-                    <h6 style="margin-bottom: 0;">Fazer reflexões sobre a rotina de autocuidado em 2020 e plantar a sementinha de como você quer que seja em 2021</h6>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-trip">
-                <%= image_tag "study.png", style:"width: 60%;height: auto;" %>
-                <div class="card-trip-infos">
-                  <div>
-                    <h6 style="margin-bottom: 0;">Preencher ferramentas para identificar seus maus hábitos e criar indicadores, aceitando os deslizes e erros no caminho</h6>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-trip">
-                <%= image_tag "sunbathing.png", style:"" %>
-                <div class="card-trip-infos">
-                  <div>
-                    <h6 style="margin-bottom: 0;">Vivenciar outras experiências e conhecer outros elementos de autocuidado para expandir seu leque de opções na construção da sua própria rotina de autocuidado</h6>
-                  </div>
-                </div>
-              </div>
-
+              <br>
+              <h5 class="m-2">
+                Vamos ficar um dia inteiro juntinhos e conectados pelo Zoom para:
+              </h5>
             </div>
           </div>
+          <div class="gifts">
+            <div class="card-trip">
+              <%= image_tag "yoga.png", style:"width: 60%;height: auto;" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h6 style="margin-bottom: 0;">Praticar Yoga, Meditação e Respirações</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card-trip">
+              <%= image_tag "routine.png", style:"width: 60%;height: auto;" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h6 style="margin-bottom: 0;">Receber dicas e aprender mais sobre alimentação e sono</h6>
+                </div>
+              </div>
+            </div>
 
-          <div class="encontros col-12 p-2 m-1" style="float:left; background: #F3E9D2; border-radius: 8px;">
+            <div class="card-trip">
+              <%= image_tag "knowledge.png", style:"width: 60%;height: auto;" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h6 style="margin-bottom: 0;">Aulas teóricas sobre corpo, mente, estresse, ansiedade, vícios e gatilhos</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-trip">
+              <%= image_tag "spa.png", style:"width: 60%;height: auto;" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h6 style="margin-bottom: 0;">Criar seu próprio ritual de autocuidado, com os elementos que fazem sentido pra você!</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-trip">
+              <%= image_tag "reflect.png", style:"width: 60%;height: auto;" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h6 style="margin-bottom: 0;">Fazer reflexões sobre a rotina de autocuidado em 2020 e plantar a sementinha de como você quer que seja em 2021</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-trip">
+              <%= image_tag "study.png", style:"width: 60%;height: auto;" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h6 style="margin-bottom: 0;">Preencher ferramentas para identificar seus maus hábitos e criar indicadores, aceitando os deslizes e erros no caminho</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-trip" id="sunbathing">
+              <%= image_tag "sunbathing.png", style:"" %>
+              <div class="card-trip-infos">
+                <div>
+                  <h6 style="margin-bottom: 0;">Vivenciar outras experiências e conhecer outros elementos de autocuidado para expandir seu leque de opções na construção da sua própria rotina de autocuidado</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aovivo">
+          <div class="encontros p-2" style="justify-self: center;float:left; background: #F3E9D2; border-radius: 8px;">
             <h4>Teremos 4 encontros ao vivo ao longo do dia e entre os encontros você deverá fazer as reflexões e atividades individuais</h4>
             <p style="line-height: 1">*durante as atividades individuais, estaremos disponíveis para tirar as dúvidas</p>
           </div>
+          <br>
         </div>
+        <div class="retiro">
+          <h3>PARA QUEM É ESSE RETIRO?</h3>
+          <div class="wrapper">
+            <div class="element">
+              <%= image_tag "anxiety.png" %>
+              <h4>Você está ansioso?</h4>
+              <p>É, usamos "está". Isso é porque você irá aprender a usar o seu corpo para aos poucos reverter essa situação e estar pleno em si para criar a vida que deseja.</p>
+            </div>
+            <div class="element">
+              <%= image_tag "cage.png" %>
+              <h4>Quer descobrir mais sobre o que te impede de voar?</h4>
+              <p>Iremos descobrir desde a base aquilo que trava nosso potencial de ser e viver mais, vem com a gente. .</p>
+            </div>
+            <div class="element">
+              <%= image_tag "foot-massage.png" %>
+              <h4>Quer se aprofundar no autocuidado?</h4>
+              <p>Aprenderemos ferramentas simples e, no entanto, poderosas de reestabelecer a harmonia e tranquilidade de nosso corpo e mente.</p>
+            </div>
 
-        <div class="" id="linha">linha</div>
-
-        <h4 id="convite"><b>Quer participar desse evento <em>GRATUITO</em>?</b></h4>
-        <p>*todos os direcionamentos para criar o ambiente propício em sua casa serão enviados no grupo</p>
+          </div>
+        </div>
+        <hr>
+          <h4 id="convite"><b>Bora participar desse evento <em>GRATUITO</em>?</b></h4>
+          <a href="https://chat.whatsapp.com/IqVU3bgE41aDjgODlg5Sh3" class="btn btn-warning btn-quero btn-lg mb-2" style="border-radius: 8px;letter-spacing: 0.5px">
+            Se inscreva gratuitamente!
+          </a>
 
 
         <!-- ---------------------- -->
@@ -136,6 +165,10 @@
         <h4>Semear Você é a primeira parte completinha que <b>estamos dando de presente pra você</b> da jornada completa Semear 2021.</h4>
         <h4>O restante desta construção vem para integrar este primeiro pilar e ajudar você a semear seus sonhos em 2021:</h4>
         &#x1F447; &#x1F447;
+        <div class="imgbox">
+          <%= image_tag "semearlinha.png" %>
+        </div>
+
       </div>
     </div>
   </div>

@@ -9,7 +9,7 @@
   font-weight: 900;
 }
 .semear h4 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
@@ -29,17 +29,33 @@
   font-size: 1.2rem;
 }
 #dia {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 1;
   margin: 1rem;
 }
 #semearvc {
-  background-image: asset-url('logosemearcel.png');
+  vertical-align: middle;
+}
+#details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#semearlinha {
+  background-image: asset-url('semearlinha.png');
   background-size: cover;
   background-position: center;
-  height: 40vh;
+  // height: 50vh;
+  width: 100vw;
+}
+#inscreva {
+  bottom: -10px;
+}
+.pontos p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
 }
 .retiroonline {
   border-radius: 8px;
@@ -61,8 +77,10 @@
   font-weight: 300;
 }
 .encontros {
-  top: -5px;
+  top: -10px !important;
   border: solid 2px #d3ac4a;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 .segundobloco {
   background: #d3ac4a;
@@ -70,4 +88,81 @@
 }
 .pontos {
   padding: 1rem;
+}
+.aovivo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.element {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 0;
+  text-align: center;
+  align-items: center;
+}
+.element h4 {
+  font-weight: 400;
+}
+.element > img {
+  padding: 1rem;
+  width: 40%;
+  height: auto;
+}
+.retiro h3 {
+  color: #d3ac4a;
+}
+// Smallest device
+@media (min-width: 100px) and (max-width: 319px) {
+}
+@media (min-width: 320px) and (max-width: 575px) {
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  #sunbathing {
+    flex: 0 0 55%;
+  }
+  #sunbathing > img {
+    height: auto;
+    width: 10vw;
+  }
+  .encontros {
+    width: 400px;
+  }
+  .imgbox > img {
+    width: 50%;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .retiro h3 {
+    font-size: 1.7rem;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
 }
