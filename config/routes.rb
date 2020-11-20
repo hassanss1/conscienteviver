@@ -18,7 +18,7 @@ Rails.application.routes.draw do
   get '/mentoria_acenda_a_luz/aulas/3', to: 'pages#aula3', as: 'aula3'
   get '/mentoria_acenda_a_luz/aulas/4', to: 'pages#aula4', as: 'aula4'
   get '/mentoria_acenda_a_luz/aulas/5', to: 'pages#aula5', as: 'aula5'
-  # get '/mentoria_acenda_a_luz/aulas/6', to: 'pages#aula6', as: 'aula6'
+  get '/mentoria_acenda_a_luz/aulas/6', to: 'pages#aula6', as: 'aula6'
   # get '/mentoria_acenda_a_luz/aulas/7', to: 'pages#aula7', as: 'aula7'
   # get '/mentoria_acenda_a_luz/aulas/8', to: 'pages#aula8', as: 'aula8'
 

@@ -1,0 +1,50 @@
+<body style="background-color:#E7D29C; padding-bottom: 1rem;">
+  <%= render 'shared/navbar' %>
+  <div class="container-fluid col-sm-12 col-md-12">
+    <div class="header">
+      <h3>Prosperidade e Abundância</h3>
+      <h4>Módulo 2 - A Vida Prática</h4>
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 full-width" style="background: #E7D29C; padding:1rem;">
+        <iframe src="https://www.youtube.com/embed/TclBPqCEwpw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="detalhes">
+     <p style="place-self: center; text-align: right; width: 65%;">
+      O quanto sucesso e dinheiro não formam uma duplinha nesta vida moderna, né? Nesta aula desbravamos o que é sucesso e como está relacionado com liberdade, fluindo na verdadeira abundância de Ser.
+     </p>
+     <div>
+       <h4>TÓPICOS</h4>
+       <ul id="topicos">
+         <li>3º nível de consciência/chakra solar</li>
+         <li>fontes de poder</li>
+         <li>sucesso</li>
+         <li>liberdade x dinheiro</li>
+         <li>medo de não ter x medo de não Ser</li>
+         <li>ser x fazer</li>
+         <li>equilíbrio dar e receber</li>
+       </ul>
+     </div>
+    </div>
+    <hr>
+    <div class="calendly">
+      <a href="https://calendly.com/sarahsalim/mentoria-individual-2-acenda-a-luz-clone" target="_blank"><i class="far fa-calendar-alt fa-2x" style=" vertical-align: middle;"></i> Clique e agende sua Mentoria Individual</a>
+    </div>
+    <div class="arquivos">
+      <!-- SLIDES -->
+      <a href="https://drive.google.com/file/d/1nQzSlX2E3aS2DbYdftHhLpEC1QiTe91i/view?usp=sharing" target="_blank">
+        <i class="far fa-file-alt fa-2x" style=" vertical-align: middle;"></i> Slides</a>
+      <!-- ATIVIDADE -->
+      <%= content_tag :a, href: current_user.plano, target: "_blank" do -%>
+        <i class="fas fa-tasks fa-2x" style=" vertical-align: middle;"></i> Atividade
+      <% end -%>
+      <!-- REFLEXÕES DIÁRIAS -->
+      <a href="https://drive.google.com/file/d/1uI4vMz5iW9fyiCZdOA32F5vaj-9pUa_y/view?usp=sharing" target="_blank">
+        <i class="fas fa-lightbulb fa-2x" style=" vertical-align: middle;"></i> Reflexões Diárias</a>
+    </div>
+    <!-- ATIVIDADE MODELO PREENCHIDA -->
+    <div class="arquivos" style="padding: 0;">
+      <a href="https://drive.google.com/file/d/1kaG21l9vieXn4zkaK0GgQhY1KsiZRmz5/view?usp=sharing" target="_blank">
+        <i class="fas fa-tasks fa-2x" style=" vertical-align: middle;"></i> Atividade Modelo Preenchida</a>
+    </div>
+  </div>
+</body>
