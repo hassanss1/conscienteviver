@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   # Routes for semear2021
   get '/semear2021', to: 'pages#semearvoce2021'
+  get '/semear2021off', to: 'pages#semear2021'
+
   # Routes for mentoria_acenda_luz
   devise_for :users, path: '', path_names: { sign_in: 'login', sign_out: 'logout'}
   get '/home', to: 'pages#mentoria_acenda_a_luz_home'

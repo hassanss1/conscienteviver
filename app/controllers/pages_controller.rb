@@ -5,7 +5,8 @@ class PagesController < ApplicationController
                                                  :details,
                                                  :transferencia,
                                                  :nos,
-                                                 :semearvoce2021]
+                                                 :semearvoce2021,
+                                                 :semear2021]
 
   def home
   end
@@ -14,6 +15,9 @@ class PagesController < ApplicationController
   end
 
   def mentoria_acenda_a_luz
+  end
+
+  def semearvoce2021
   end
 
   def semear2021
