@@ -43,6 +43,9 @@
   justify-content: center;
   align-items: center;
 }
+.aovivo h3 {
+  font-size: 1.7rem;
+}
 #semearlinha {
   background-image: asset-url('semearlinha.png');
   background-size: cover;
@@ -180,4 +183,40 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 
+}
+
+.colour-block {
+  background:#d3ac4a;
+  width:60%;
+  padding:7% 20% 10% 20%;
+}
+.white-block {
+  background:#fff;
+  width:60%;
+  padding:7% 20% 10% 20%;
+}
+
+
+
+/*------------------*/
+/*  SKEW CLOCKWISE  */
+/*------------------*/
+.skew-cc{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #d3ac4c 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.skew-c{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #fff 49%, #823A9C 50%);
 }
