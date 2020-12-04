@@ -1,0 +1,50 @@
+<body style="background-color:#E7D29C; padding-bottom: 1rem;">
+  <%= render 'shared/navbar' %>
+  <div class="container-fluid col-sm-12 col-md-12">
+    <div class="header">
+      <h3>Propósito e a Nova Era</h3>
+      <h4>Módulo 4 - MEU IMPACTO NO MUNDO</h4>
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 full-width" style="background: #E7D29C; padding:1rem;">
+        <iframe src="https://www.youtube.com/embed/S3OlW8rEoC4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="detalhes">
+     <p style="place-self: center; text-align: right; width: 65%;">
+      Vamos dar as mãos e começar a co-construção de um novo mundo, que emerge a partir do propósito de cada um. Nesta aula visualizamos com clareza este futuro que queremos construir individualmente e coletivamente.</p>
+     <div>
+       <h4>TÓPICOS</h4>
+       <ul id="topicos">
+         <li>propósito</li>
+         <li>6º e 7º nível de consciência/chakra frontal e coronário</li>
+         <li>samadhi</li>
+         <li>clareza</li>
+         <li>Nova Era</li>
+         <li>Energia Divina</li>
+       </ul>
+     </div>
+    </div>
+    <hr>
+    <div class="calendly">
+      <a href="https://calendly.com/sarahsalim/mentoria-individual-3-acenda-a-luz" target="_blank"><i class="far fa-calendar-alt fa-2x" style=" vertical-align: middle;"></i> Clique e agende sua Mentoria Individual</a>
+    </div>
+
+    <div class="arquivos">
+      <!-- SLIDES -->
+      <a href="https://drive.google.com/file/d/1nhkYcRnmZXwUSXBw49Fo05koCnCYp9d9/view?usp=sharing" target="_blank">
+        <i class="far fa-file-alt fa-2x" style=" vertical-align: middle;"></i> Slides</a>
+      <!-- ATIVIDADE -->
+      <%= content_tag :a, href: current_user.ideias, target: "_blank" do -%>
+        <i class="fas fa-tasks fa-2x" style=" vertical-align: middle;"></i> Atividade
+      <% end -%>
+      <!-- REFLEXÕES DIÁRIAS -->
+      <a href="https://drive.google.com/file/d/1atKep2r05HgYSXaM7plyy_TmOV5EwU2c/view?usp=sharing" target="_blank">
+        <i class="fas fa-lightbulb fa-2x" style=" vertical-align: middle;"></i> Reflexões Diárias</a>
+    </div>
+    <div class="header">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 full-width" style="background: #E7D29C; padding:1rem;">
+        <h4>BÔNUS</h4>
+        <iframe src="https://www.youtube.com/embed/WljxRERs-w0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</body>

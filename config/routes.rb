@@ -22,7 +22,7 @@ Rails.application.routes.draw do
   get '/mentoria_acenda_a_luz/aulas/5', to: 'pages#aula5', as: 'aula5'
   get '/mentoria_acenda_a_luz/aulas/6', to: 'pages#aula6', as: 'aula6'
   get '/mentoria_acenda_a_luz/aulas/7', to: 'pages#aula7', as: 'aula7'
-  # get '/mentoria_acenda_a_luz/aulas/8', to: 'pages#aula8', as: 'aula8'
+  get '/mentoria_acenda_a_luz/aulas/8', to: 'pages#aula8', as: 'aula8'
 
   # Routes for bônus
   get '/mentoria_acenda_a_luz/bonus/1', to: 'pages#bonus1', as: 'bonus1'

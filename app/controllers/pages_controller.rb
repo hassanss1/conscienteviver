@@ -57,8 +57,8 @@ class PagesController < ApplicationController
   def aula7
   end
 
-  # def aula8
-  # end
+  def aula8
+  end
 
   def bonus1
   end
