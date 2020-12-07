@@ -23,11 +23,12 @@
   font-weight: 400;
 }
 .semear h6 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: rgba(0,0,0,0.7);
   letter-spacing: 1px;
+  line-height: 1;
 }
 #convite {
   font-size: 1.2rem;
@@ -65,11 +66,6 @@
 }
 .retiroonline {
   border-radius: 8px;
-  border-style: dashed;
-  border-color: white;
-  border-width: 2px;
-  padding: 18px;
-  margin: 2rem;
 }
 .retiroonline h4 {
   text-align: left;
@@ -111,7 +107,7 @@
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
 }
@@ -135,13 +131,40 @@
   color: #d3ac4a;
 }
 .retiro {
-  margin-top: 2rem;
+  margin: 2rem 0;
+}
+.valor {
+  padding: 2rem;
+}
+.valor h3 {
+  font-size: 2rem;
+  color: #d3ac4a;
+}
+.segundobloco a {
+  font-size: 1.6rem;
 }
 // Smallest device
 @media (min-width: 100px) and (max-width: 319px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+  .valor h3 {
+  font-size: 1.6rem;
+  }
+  .segundobloco a {
+    font-size: 1.3rem;
+  }
 }
 @media (min-width: 320px) and (max-width: 575px) {
-
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+  .valor h3 {
+  font-size: 1.6rem;
+  }
+  .segundobloco a {
+    font-size: 1.3rem;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -159,6 +182,18 @@
   .imgbox > img {
     width: 50%;
   }
+  #imgarvore > img {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #nos {
+    max-width: 60%;
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  #nos a {
+    font-size: 1rem;
+  }
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -166,7 +201,7 @@
     justify-content: center;
   }
   .retiro h3 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
   .retiroonline h4 {
     font-size:1.2rem;

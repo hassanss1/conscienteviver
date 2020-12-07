@@ -7,8 +7,8 @@ Rails.application.routes.draw do
   get '/nos', to:'pages#nos'
 
   # Routes for semear2021
-  get '/semear2021', to: 'pages#semearvoce2021'
-  get '/semear2021off', to: 'pages#semear2021'
+  # get '/semear2021', to: 'pages#semearvoce2021'
+  get '/semear2021', to: 'pages#semear2021'
 
   # Routes for mentoria_acenda_luz
   devise_for :users, path: '', path_names: { sign_in: 'login', sign_out: 'logout'}
