@@ -203,6 +203,7 @@ body {
   border-color: #E7D29C;
   color: black;
   border-radius: 4px;
+  font-size: 0.7rem;
 }
 #ja_deu {
   background: white;
@@ -489,6 +490,9 @@ ul.experiences li:last-child:before {
     width:25%;
     height:20%;
   }
+  .btn-claro {
+    font-size: 1.5rem;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -508,6 +512,9 @@ ul.experiences li:last-child:before {
     width: 25%;
     height: 20%;
   }
+  .btn-claro {
+    font-size: 1.5rem;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -519,6 +526,9 @@ ul.experiences li:last-child:before {
     width:25%;
     height:20%;
   }
+  .btn-claro {
+    font-size: 1.5rem;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -529,5 +539,8 @@ ul.experiences li:last-child:before {
   #vagas img {
     width:25%;
     height:20%;
+  }
+  .btn-claro {
+    font-size: 1.5rem;
   }
 }

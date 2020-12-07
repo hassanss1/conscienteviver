@@ -3,6 +3,10 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
+.semear ul {
+  list-style-type: none;
+  padding: 0;
+}
 .semear h3 {
   font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
@@ -61,6 +65,11 @@
 }
 .retiroonline {
   border-radius: 8px;
+  border-style: dashed;
+  border-color: white;
+  border-width: 2px;
+  padding: 18px;
+  margin: 2rem;
 }
 .retiroonline h4 {
   text-align: left;
@@ -102,7 +111,7 @@
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
 }
