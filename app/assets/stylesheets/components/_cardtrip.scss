@@ -225,6 +225,23 @@
   margin-top: 2rem;
   grid-gap: 1rem;
 }
+.autoc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+  grid-gap: 1rem;
+}
+// #ativ1 {
+//   grid-column: 2 / span 2;
+//   justify-self: center;
+// }
+// #ativ2 {
+//   grid-column: 2 / span 2;
+//   justify-self: center;
+// }
+// .autoc .container {
+//   grid-column: span 2;
+// }
 .yoga2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -242,6 +259,9 @@
   .gifts .card-trip {
     flex: 0 0 45%;
     padding: 1rem;
+  }
+  .autoc {
+    grid-template-columns: 1fr;
   }
   .gifts .card-trip:nth-last-child(1) {
     flex: 1 0 50%;
@@ -288,6 +308,9 @@
 @media (min-width: 320px) and (max-width: 575px) {
   .gifts .card-trip {
     flex: 0 0 45%;
+  }
+  .autoc {
+    grid-template-columns: 1fr;
   }
   .gifts .card-trip:nth-last-child(1) {
     flex: 1 0 50%;
