@@ -6,7 +6,8 @@ class PagesController < ApplicationController
                                                  :transferencia,
                                                  :nos,
                                                  :semearvoce2021,
-                                                 :semear2021]
+                                                 :semear2021,
+                                                 :autocuidado]
 
   def home
   end
@@ -21,6 +22,9 @@ class PagesController < ApplicationController
   end
 
   def semear2021
+  end
+
+  def autocuidado
   end
 
   def details
